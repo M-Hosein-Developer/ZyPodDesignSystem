@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#C7C7C7</color>
+
+    <!--primary color-->
+    <!--button-->
+    <color name="primary_default_button_color">#3C7CF8</color>
+    <color name="primary_hover_button_color">#D0E0FD</color>
+    <color name="primary_focus_button_color">#2B58B0</color>
+    <color name="primary_disable_button_color">#D3D3D3</color>
+    <color name="primary_danger_button_color">#FF6565</color>
+    <color name="primary_success_button_color">#08C868</color>
+
+    <!--text-->
+    <color name="primary_hover_text_color">#3C7CF8</color>
+
+
+    <!--secondary color-->
+    <!--button-->
+    <color name="secondary_default_button_color">#F8F9FC</color>
+    <color name="secondary_hover_button_color">#D0E0FD</color>
+    <color name="secondary_focus_button_color">#EEF1FA</color>
+    <color name="secondary_disable_button_color">#EAEAEA</color>
+    <color name="secondary_danger_button_color">#FFCFD0</color>
+    <color name="secondary_success_button_color">#B2EED0</color>
+
+    <!--text-->
+    <color name="secondary_default_text_color">#3C7CF8</color>
+    <color name="secondary_hover_text_color">#84ACFB</color>
+    <color name="secondary_focus_text_color">#3369D3</color>
+    <color name="secondary_disable_text_color">#9C9C9C</color>
+    <color name="secondary_danger_text_color">#FF6565</color>
+    <color name="secondary_success_text_color">#08C868</color>
+
+</resources>

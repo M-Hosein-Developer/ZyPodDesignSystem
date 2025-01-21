@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!--button size-->
+   <dimen name="extra_small_button_height">38dp</dimen>
+   <dimen name="extra_small_button_width">100dp</dimen>
+
+   <dimen name="small_button_height">46dp</dimen>
+   <dimen name="small_button_width">150dp</dimen>
+
+   <dimen name="medium_button_height">54dp</dimen>
+   <dimen name="medium_button_width">170dp</dimen>
+
+   <dimen name="large_button_height">58dp</dimen>
+   <dimen name="large_button_width">185dp</dimen>
+
+
+
+</resources>

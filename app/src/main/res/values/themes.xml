@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZyPodDesignSystem" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ZyPodDesignSystem" parent="Base.Theme.ZyPodDesignSystem" />
+
+    <style name="Default.Primary_button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/primary_default_button_color</item>
+
+    </style>
+</resources>
