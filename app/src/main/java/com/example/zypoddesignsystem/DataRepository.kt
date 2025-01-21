@@ -1,12 +1,10 @@
 package com.example.zypoddesignsystem
 
-import android.text.Layout
-
 class DataRepository {
 
     fun getViewById(id : Int) : Int =
         when(id){
-            1 -> R.layout.button_description_layout
+            1 -> R.layout.button_detail_layout
             2 -> R.layout.activity_detail
             3 -> R.layout.activity_detail
             4 -> R.layout.activity_detail
