@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ZyPod Design System</string>
+    <string name="understand">متوجه شدم</string>
+    <string name="primary_button_text_title">دکمه های پیشفرض اصلی</string>
+    <string name="yes_text">بله</string>
+    <string name="Buttons">دکمه ها</string>
+    <string name="secondary_title_desc">دکمه های ثانویه - outline</string>
+    <string name="hover">دکمه های شناور - hover</string>
+    <string name="danger_title_button">دکمه های اخطار</string>
+    <string name="success_title_button">دکمه های موفقیت</string>
+    <string name="btn_disable_mode1">حالت غیر فعال مدل اول</string>
+    <string name="btn_disable_mode2">حالت غیر فعال مدل دوم</string>
 </resources>

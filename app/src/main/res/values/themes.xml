@@ -7,9 +7,6 @@
 
     <style name="Theme.ZyPodDesignSystem" parent="Base.Theme.ZyPodDesignSystem" />
 
-    <style name="Default.Primary_button" parent="Widget.MaterialComponents.Button">
-        <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:background">@color/primary_default_button_color</item>
 
-    </style>
+
 </resources>

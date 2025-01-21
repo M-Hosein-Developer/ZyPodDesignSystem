@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Button-->
+    <style name="Button.Primary.Default" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Disable.Mode1" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Disable.Mode2" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Hover" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Primary.Danger" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="Button.Primary.Success" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+
+
+    <!--Text-->
+    <style name="TextView.Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="fontFamily">@font/new_iransans_fa_medium</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Desc" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <!--input layouts-->
+
+
+</resources>
