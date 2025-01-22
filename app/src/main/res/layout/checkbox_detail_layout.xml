@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/TextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/checkbox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_checked"
+            style="@style/TextView.Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/checked"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/txt_unchecked"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+
+        <TextView
+            android:id="@+id/txt_unchecked"
+            style="@style/TextView.Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unchecked"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_checked"
+            app:layout_constraintEnd_toStartOf="@+id/txt_checked"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_checked" />
+
+        <CheckBox
+            android:id="@+id/default_unchecked"
+            style="@style/Default.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/txt_unchecked"
+            app:layout_constraintStart_toStartOf="@+id/txt_unchecked"
+            app:layout_constraintTop_toBottomOf="@+id/txt_unchecked" />
+
+        <CheckBox
+            android:id="@+id/default_checked"
+            style="@style/Default.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:checked="true"
+            app:layout_constraintEnd_toEndOf="@+id/txt_checked"
+            app:layout_constraintStart_toStartOf="@+id/txt_checked"
+            app:layout_constraintTop_toBottomOf="@+id/txt_checked" />
+
+
+        <CheckBox
+            android:id="@+id/error_unchecked"
+            style="@style/Error.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/default_unchecked"
+            app:layout_constraintStart_toStartOf="@+id/default_unchecked"
+            app:layout_constraintTop_toBottomOf="@+id/default_unchecked" />
+
+        <CheckBox
+            android:id="@+id/error_checked"
+            style="@style/Error.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:checked="true"
+            app:layout_constraintEnd_toEndOf="@+id/default_checked"
+            app:layout_constraintStart_toStartOf="@+id/default_checked"
+            app:layout_constraintTop_toBottomOf="@+id/default_checked" />
+
+        <CheckBox
+            android:id="@+id/success_unchecked"
+            style="@style/Success.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="@+id/error_unchecked"
+            app:layout_constraintStart_toStartOf="@+id/error_unchecked"
+            app:layout_constraintTop_toBottomOf="@+id/error_unchecked" />
+
+        <CheckBox
+            android:id="@+id/success_checked"
+            style="@style/Success.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:checked="true"
+            app:layout_constraintEnd_toEndOf="@+id/error_checked"
+            app:layout_constraintStart_toStartOf="@+id/error_checked"
+            app:layout_constraintTop_toBottomOf="@+id/error_checked" />
+
+        <CheckBox
+            android:id="@+id/disable_unchecked"
+            style="@style/Disable.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:enabled="false"
+            app:layout_constraintEnd_toEndOf="@+id/success_unchecked"
+            app:layout_constraintStart_toStartOf="@+id/success_unchecked"
+            app:layout_constraintTop_toBottomOf="@+id/success_unchecked" />
+
+        <CheckBox
+            android:id="@+id/disable_checked"
+            style="@style/Disable.Checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:checked="true"
+            android:enabled="false"
+            app:layout_constraintEnd_toEndOf="@+id/success_checked"
+            app:layout_constraintStart_toStartOf="@+id/success_checked"
+            app:layout_constraintTop_toBottomOf="@+id/success_checked" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

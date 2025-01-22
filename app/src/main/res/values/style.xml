@@ -70,6 +70,7 @@
     </style>
 
 
+
     <!--input layouts-->
     <style name="Default.Layout.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
         <item name="strokeColor">@android:color/transparent</item>
@@ -106,7 +107,6 @@
         <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
     </style>
 
-
     <!--error style-->
     <style name="Error.EditText.Input" parent="Widget.Material3.TextInputEditText.OutlinedBox">
         <item name="android:layoutDirection">rtl</item>
@@ -136,6 +136,26 @@
     </style>
 
 
+    <!--Checkbox-->
+    <style name="Default.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonIconTint">@color/default_input_color</item>
+        <item name="buttonTint">@color/focus_input_boarder_color</item>
+    </style>
+
+    <style name="Error.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonIconTint">@color/default_input_color</item>
+        <item name="buttonTint">@color/error_input_color</item>
+    </style>
+
+    <style name="Success.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonIconTint">@color/default_input_color</item>
+        <item name="buttonTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Disable.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonIconTint">@color/default_input_color</item>
+        <item name="buttonTint">@color/disable_color</item>
+    </style>
 
 
 </resources>

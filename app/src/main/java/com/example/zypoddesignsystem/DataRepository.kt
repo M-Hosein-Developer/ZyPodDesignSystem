@@ -6,7 +6,7 @@ class DataRepository {
         when(id){
             1 -> R.layout.button_detail_layout
             2 -> R.layout.input_detail_layout
-            3 -> R.layout.activity_detail
+            3 -> R.layout.checkbox_detail_layout
             4 -> R.layout.activity_detail
             5 -> R.layout.activity_detail
             6 -> R.layout.activity_detail
