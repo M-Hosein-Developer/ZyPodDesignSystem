@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             ComponentModel(2 , "ورودی ها" , R.drawable.zypod),
             ComponentModel(3 , "چک باکس" , R.drawable.zypod),
             ComponentModel(4 , "دکمه های toggle" , R.drawable.zypod),
-            ComponentModel(5 , "دکمه های radio" , R.drawable.zypod),
             ComponentModel(6 , "dropdown" , R.drawable.zypod),
             ComponentModel(7 , "کارد" , R.drawable.zypod),
             ComponentModel(8 , "آیتم های لیست" , R.drawable.zypod),
