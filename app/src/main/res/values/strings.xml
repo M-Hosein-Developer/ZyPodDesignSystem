@@ -10,4 +10,8 @@
     <string name="success_title_button">دکمه های موفقیت</string>
     <string name="btn_disable_mode1">حالت غیر فعال مدل اول</string>
     <string name="btn_disable_mode2">حالت غیر فعال مدل دوم</string>
+    <string name="input">ورودی ها - input</string>
+    <string name="default_Input">ورودی های پیش فرض</string>
+    <string name="error_input">ورودی های همراه با ارور</string>
+    <string name="success_input">ورودی های موفقیت آمیز</string>
 </resources>

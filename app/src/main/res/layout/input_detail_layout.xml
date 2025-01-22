@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/TextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txt_default"
+            style="@style/TextView.Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/default_Input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:startIconDrawable="@drawable/baseline_settings_24"
+            app:endIconDrawable="@drawable/baseline_settings_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Default.Layout.Input"
+            app:helperText="سلام"
+            app:layout_constraintTop_toBottomOf="@+id/txt_default">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/Default.EditText.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="سلام" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txt_error"
+            style="@style/TextView.Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/error_input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_default" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:startIconDrawable="@drawable/baseline_settings_24"
+            app:endIconDrawable="@drawable/component"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:helperText="سلام"
+            style="@style/Default.Layout.Input"
+            app:layout_constraintTop_toBottomOf="@+id/txt_error">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/Error.EditText.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="سلام" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/txt_success"
+            style="@style/TextView.Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/success_input"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_error" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:startIconDrawable="@drawable/baseline_settings_24"
+            app:endIconDrawable="@drawable/component"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:helperText="سلام"
+            style="@style/Default.Layout.Input"
+            app:layout_constraintTop_toBottomOf="@+id/txt_success">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/Success.EditText.Input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="سلام" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

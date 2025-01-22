@@ -5,7 +5,7 @@ class DataRepository {
     fun getViewById(id : Int) : Int =
         when(id){
             1 -> R.layout.button_detail_layout
-            2 -> R.layout.activity_detail
+            2 -> R.layout.input_detail_layout
             3 -> R.layout.activity_detail
             4 -> R.layout.activity_detail
             5 -> R.layout.activity_detail

@@ -5,7 +5,6 @@
     <color name="gray">#C7C7C7</color>
     <color name="dark_gray">#2A2A2A</color>
 
-    <!--primary color-->
     <!--button-->
     <color name="primary_default_button_color">#3C7CF8</color>
     <color name="primary_hover_button_color">#D0E0FD</color>
@@ -13,19 +12,14 @@
     <color name="primary_disable_button_color">#D3D3D3</color>
     <color name="primary_danger_button_color">#FF6565</color>
     <color name="primary_success_button_color">#08C868</color>
-
-    <!--text-->
-    <color name="primary_hover_text_color">#3C7CF8</color>
-
-
-    <!--secondary color-->
-    <!--button-->
     <color name="secondary_default_button_color">#F8F9FC</color>
     <color name="secondary_hover_button_color">#D0E0FD</color>
     <color name="secondary_focus_button_color">#EEF1FA</color>
     <color name="secondary_disable_button_color">#EAEAEA</color>
     <color name="secondary_danger_button_color">#FFCFD0</color>
     <color name="secondary_success_button_color">#B2EED0</color>
+    <color name="primary_hover_text_color">#3C7CF8</color>
+
 
     <!--text-->
     <color name="secondary_default_text_color">#3C7CF8</color>
@@ -34,5 +28,18 @@
     <color name="secondary_disable_text_color">#9C9C9C</color>
     <color name="secondary_danger_text_color">#FF6565</color>
     <color name="secondary_success_text_color">#08C868</color>
+
+
+    <!--input-->
+    <color name="default_input_color">#F8F9FC</color>
+    <color name="default_input_boarder_color">#E5E6EF</color>
+    <color name="focus_input_color">#ECF2FE</color>
+    <color name="focus_input_boarder_color">#3C7CF8</color>
+    <color name="error_un_focus_input_boarder_color">#FFEBEB</color>
+    <color name="error_input_color">#FF6565</color>
+    <color name="disable_input_boarder_color">#E5E6EF</color>
+
+
+
 
 </resources>
