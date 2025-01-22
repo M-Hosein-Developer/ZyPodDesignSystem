@@ -8,7 +8,7 @@ class DataRepository {
             2 -> R.layout.input_detail_layout
             3 -> R.layout.checkbox_detail_layout
             4 -> R.layout.toggle_detail_layout
-            6 -> R.layout.activity_detail
+            6 -> R.layout.dropdown_detail_layout
             7 -> R.layout.activity_detail
             8 -> R.layout.activity_detail
             9 -> R.layout.activity_detail
