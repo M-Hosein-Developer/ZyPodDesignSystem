@@ -156,6 +156,17 @@
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/disable_color</item>
     </style>
+    
+    
+    <!--toggle-->
+    <style name="Default.Toggle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+
+    <style name="Default.Toggle.Icon" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="trackTint">@color/switch_track_color</item>
+        <item name="thumbIconTint">@color/switch_thumb_icon_color</item>
+    </style>
 
 
 </resources>

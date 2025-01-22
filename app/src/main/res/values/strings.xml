@@ -17,4 +17,7 @@
     <string name="checkbox">چک باکس ها</string>
     <string name="checked">چک شده</string>
     <string name="unchecked">چک نشده</string>
+    <string name="toggle">دکمه های toggle</string>
+    <string name="switch_text">سوئیچ</string>
+    <string name="radio_btn">دکمه های رادیو</string>
 </resources>
