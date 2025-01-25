@@ -19,6 +19,7 @@
     <color name="secondary_danger_button_color">#FFCFD0</color>
     <color name="secondary_success_button_color">#B2EED0</color>
     <color name="primary_hover_text_color">#3C7CF8</color>
+    <color name="gray_text_button">#4B4B4B</color>
 
 
     <!--text-->
@@ -28,6 +29,7 @@
     <color name="secondary_disable_text_color">#9C9C9C</color>
     <color name="secondary_danger_text_color">#FF6565</color>
     <color name="secondary_success_text_color">#08C868</color>
+    <color name="black_transparent_text_color">#383838</color>
 
 
     <!--input-->

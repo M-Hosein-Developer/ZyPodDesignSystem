@@ -36,7 +36,7 @@
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/primary_hover_button_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
@@ -66,6 +66,25 @@
         <item name="android:textColor">@color/dark_gray</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="NormalTextView">
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LargeTextView">
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SmallTextView">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
         <item name="android:textStyle">normal</item>
     </style>
 
@@ -252,5 +271,25 @@
         <item name="android:clickable">false</item>
     </style>
 
+
+    <!--cards style-->
+    <style name="CardStyle">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="elevation">0dp</item>
+        <item name="strokeWidth">0.5dp</item>
+        <item name="cardBackgroundColor">@color/secondary_default_button_color</item>
+    </style>
+
+    <style name="CardWalletStyle">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="elevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/default_input_boarder_color</item>
+        <item name="cardBackgroundColor">@color/secondary_default_button_color</item>
+    </style>
+
+    <style name="ProfileImageViewStyle">
+
+    </style>
 
 </resources>
