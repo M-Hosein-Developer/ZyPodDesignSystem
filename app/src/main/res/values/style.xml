@@ -71,10 +71,20 @@
 
 
 
-    <!--input layouts-->
-    <style name="Default.Layout.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
-        <item name="strokeColor">@android:color/transparent</item>
-        <item name="boxStrokeColor">@android:color/transparent</item>
+
+    <!--input edt-->
+    <style name="DefaultEditTextInput" >
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:gravity">start</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <!--default focus style-->
+    <style name="DefaultLayoutInput">
+        <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
+        <item name="boxBackgroundColor">@color/default_input_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
@@ -89,50 +99,49 @@
         <item name="checkedIconTint">@color/focus_input_boarder_color</item>
         <item name="android:layoutDirection">rtl</item>
         <item name="errorTextColor">@color/error_input_color</item>
-    </style>
-
-    <!--default focus style-->
-    <style name="Default.EditText.Input" parent="Widget.Material3.TextInputEditText.OutlinedBox">
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:textDirection">rtl</item>
-        <item name="android:layout_gravity">start</item>
-        <item name="android:gravity">start</item>
-        <item name="strokeColor">@android:color/transparent</item>
-        <item name="boxStrokeColor">@android:color/transparent</item>
-        <item name="android:background">@drawable/focus_input_background</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="hintTextColor">@color/focus_input_boarder_color</item>
     </style>
 
     <!--error style-->
-    <style name="Error.EditText.Input" parent="Widget.Material3.TextInputEditText.OutlinedBox">
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:textDirection">rtl</item>
-        <item name="android:layout_gravity">start</item>
-        <item name="android:gravity">start</item>
-        <item name="android:background">@drawable/error_input_background</item>
+    <style name="ErrorEditTextInput">
+        <item name="boxStrokeColor">@color/error_input_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="boxBackgroundColor">@color/error_un_focus_input_boarder_color</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
         <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
         <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="iconTint">@color/focus_input_boarder_color</item>
+        <item name="endIconTint">@color/focus_input_boarder_color</item>
+        <item name="startIconTint">@color/focus_input_boarder_color</item>
+        <item name="chipIconTint">@color/focus_input_boarder_color</item>
+        <item name="buttonIconTint">@color/focus_input_boarder_color</item>
+        <item name="closeIconTint">@color/focus_input_boarder_color</item>
+        <item name="checkedIconTint">@color/focus_input_boarder_color</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="hintTextColor">@color/error_input_color</item>
+        <item name="errorTextColor">@color/error_input_color</item>
     </style>
 
     <!--success style-->
-    <style name="Success.EditText.Input" parent="Widget.Material3.TextInputEditText.OutlinedBox">
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:textDirection">rtl</item>
-        <item name="android:layout_gravity">start</item>
-        <item name="android:gravity">start</item>
-        <item name="android:background">@drawable/success_input_background</item>
+    <style name="SuccessEditTextInput" >
+        <item name="boxStrokeColor">@color/primary_success_button_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="boxBackgroundColor">@color/default_input_color</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
         <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
         <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="iconTint">@color/focus_input_boarder_color</item>
+        <item name="endIconTint">@color/focus_input_boarder_color</item>
+        <item name="startIconTint">@color/focus_input_boarder_color</item>
+        <item name="chipIconTint">@color/focus_input_boarder_color</item>
+        <item name="buttonIconTint">@color/focus_input_boarder_color</item>
+        <item name="closeIconTint">@color/focus_input_boarder_color</item>
+        <item name="checkedIconTint">@color/focus_input_boarder_color</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="errorTextColor">@color/error_input_color</item>
+        <item name="hintTextColor">@color/primary_success_button_color</item>
     </style>
 
 
@@ -186,5 +195,7 @@
         <item name="buttonTint">@color/disable_color</item>
         <item name="android:enabled">false</item>
     </style>
+
+
 
 </resources>
