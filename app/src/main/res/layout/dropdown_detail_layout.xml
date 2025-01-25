@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:layout_margin="12dp"
     android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/TextView.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/dropdown_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_default"
+        style="@style/TextView.Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/default_dropdown_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+
+
+    <Spinner
+        android:id="@+id/dropdown_default"
+        style="@style/DefaultDropDown"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/select_text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:entries="@array/spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_default" />
+
+
+    <TextView
+        android:id="@+id/txt_error"
+        style="@style/TextView.Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/default_dropdown_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dropdown_default" />
+
+    <Spinner
+        android:id="@+id/dropdown_error"
+        style="@style/ErrorDropDown"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/select_text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:entries="@array/spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_error" />
+
+    <TextView
+        android:id="@+id/txt_success"
+        style="@style/TextView.Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/default_dropdown_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dropdown_error" />
+
+    <Spinner
+        android:id="@+id/dropdown_success"
+        style="@style/SuccessDropDown"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/select_text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:entries="@array/spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_success" />
+
+
+    <TextView
+        android:id="@+id/txt_disable"
+        style="@style/TextView.Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/default_dropdown_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dropdown_success" />
+
+    <Spinner
+        android:id="@+id/dropdown_disable"
+        style="@style/DisableDropDown"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/select_text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:entries="@array/spinner_items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_disable" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

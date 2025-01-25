@@ -20,4 +20,18 @@
     <string name="toggle">دکمه های toggle</string>
     <string name="switch_text">سوئیچ</string>
     <string name="radio_btn">دکمه های رادیو</string>
+    <string name="select_text">انتخاب کنید</string>
+    <string name="dropdown_menu">منوهای dropdown</string>
+    <string name="default_dropdown_menu">منوی پیشفرض</string>
+
+
+
+    <string-array name="spinner_items">
+        <item>انتخاب کنید</item>
+        <item>گزینه 1</item>
+        <item>گزینه 2</item>
+        <item>گزینه 3</item>
+        <item>گزینه 4</item>
+    </string-array>
+
 </resources>
