@@ -30,6 +30,7 @@
     <color name="secondary_danger_text_color">#FF6565</color>
     <color name="secondary_success_text_color">#08C868</color>
     <color name="black_transparent_text_color">#383838</color>
+    <color name="gray_transparent_text_color">#636363</color>
 
 
     <!--input-->

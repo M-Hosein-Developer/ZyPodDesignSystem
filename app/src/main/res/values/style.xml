@@ -276,7 +276,7 @@
     <style name="CardStyle">
         <item name="cardCornerRadius">@dimen/card_corner_radius</item>
         <item name="elevation">0dp</item>
-        <item name="strokeWidth">0.5dp</item>
+        <item name="strokeWidth">0dp</item>
         <item name="cardBackgroundColor">@color/secondary_default_button_color</item>
     </style>
 
