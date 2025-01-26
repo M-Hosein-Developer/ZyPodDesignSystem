@@ -14,13 +14,13 @@ import com.example.zypoddesignsystem.databinding.InputDetailLayoutBinding
 
 class DetailActivity : AppCompatActivity() {
 
-    private var id : Int = 0
+    private var id: Int = 0
 
-    companion object{
-        fun showDetail(context: Context , id : Int){
+    companion object {
+        fun showDetail(context: Context, id: Int) {
             context.let {
-                val intent = Intent(context , DetailActivity::class.java)
-                intent.putExtra(DETAIL_ACTIVITY , id)
+                val intent = Intent(context, DetailActivity::class.java)
+                intent.putExtra(DETAIL_ACTIVITY, id)
                 context.startActivity(intent)
             }
         }
@@ -36,20 +36,14 @@ class DetailActivity : AppCompatActivity() {
             insets
         }
 
-
-//        val items = listOf("انتخاب کنید", "گزینه 1", "گزینه 2", "گزینه 3", "گزینه 4")
-//
-//        val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, items)
-//        binding.autoCompleteTextView.setAdapter(adapter)
-
         handleIntent()
 
         setContentView(DataRepository().getViewById(id))
     }
 
-    private fun handleIntent(){
+    private fun handleIntent() {
         intent?.let {
-            id = it.getIntExtra(DETAIL_ACTIVITY , 0)
+            id = it.getIntExtra(DETAIL_ACTIVITY, 0)
         }
     }
 

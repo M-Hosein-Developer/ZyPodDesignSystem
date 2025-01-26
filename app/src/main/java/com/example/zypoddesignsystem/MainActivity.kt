@@ -16,7 +16,7 @@ import com.example.zypoddesignsystem.databinding.ActivityMainBinding
 @RequiresApi(Build.VERSION_CODES.O)
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityMainBinding
+    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,25 +30,25 @@ class MainActivity : AppCompatActivity() {
         }
 
         val component = listOf(
-            ComponentModel(1 , "دکمه" , R.drawable.zypod),
-            ComponentModel(2 , "ورودی ها" , R.drawable.zypod),
-            ComponentModel(3 , "چک باکس" , R.drawable.zypod),
-            ComponentModel(4 , "دکمه های toggle" , R.drawable.zypod),
-            ComponentModel(6 , "dropdown" , R.drawable.zypod),
-            ComponentModel(7 , "کارد" , R.drawable.zypod),
-            ComponentModel(9 , "نوار پیشرفت" , R.drawable.zypod),
-            ComponentModel(10 , "جدول" , R.drawable.zypod),
-            ComponentModel(11 , "نوار ناوبری" , R.drawable.zypod),
-            ComponentModel(12 , "نوار بالا" , R.drawable.zypod),
-            ComponentModel(13 , "منو ها" , R.drawable.zypod),
-            ComponentModel(14 , "اعلان ها" , R.drawable.zypod),
-            ComponentModel(15 , "پیام های ارور" , R.drawable.zypod),
-            ComponentModel(16 , "فضاها" , R.drawable.zypod),
-            ComponentModel(17 , "شعاع گوشه" , R.drawable.zypod),
-            ComponentModel(18 , "تقویم" , R.drawable.zypod),
-            ComponentModel(19 , "نشان ها" , R.drawable.zypod),
-            ComponentModel(20 , "پاپ آپ" , R.drawable.zypod),
-            ComponentModel(21 , "سرچ بار" , R.drawable.zypod)
+            ComponentModel(1, "دکمه", R.drawable.zypod),
+            ComponentModel(2, "ورودی ها", R.drawable.zypod),
+            ComponentModel(3, "چک باکس", R.drawable.zypod),
+            ComponentModel(4, "دکمه های toggle", R.drawable.zypod),
+            ComponentModel(6, "dropdown", R.drawable.zypod),
+            ComponentModel(7, "کارد", R.drawable.zypod),
+            ComponentModel(9, "نوار پیشرفت", R.drawable.zypod),
+            ComponentModel(10, "جدول", R.drawable.zypod),
+            ComponentModel(11, "نوار ناوبری", R.drawable.zypod),
+            ComponentModel(12, "نوار بالا", R.drawable.zypod),
+            ComponentModel(13, "منو ها", R.drawable.zypod),
+            ComponentModel(14, "اعلان ها", R.drawable.zypod),
+            ComponentModel(15, "پیام های ارور", R.drawable.zypod),
+            ComponentModel(16, "فضاها", R.drawable.zypod),
+            ComponentModel(17, "شعاع گوشه", R.drawable.zypod),
+            ComponentModel(18, "تقویم", R.drawable.zypod),
+            ComponentModel(19, "نشان ها", R.drawable.zypod),
+            ComponentModel(20, "پاپ آپ", R.drawable.zypod),
+            ComponentModel(21, "سرچ بار", R.drawable.zypod)
         )
 
         setupSettingButton()
@@ -59,14 +59,16 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupComponentRecyclerView(component: List<ComponentModel>) = with(binding) {
         val width = halfScreenSize()
-        rvComponents.adapter = ComponentsAdapter(width , component){ id ->
-            DetailActivity.showDetail(this@MainActivity , id)
+        rvComponents.adapter = ComponentsAdapter(width, component) { id ->
+            if (id == 9)
+                ProgressActivity.showActivity(this@MainActivity)
+            else
+                DetailActivity.showDetail(this@MainActivity, id)
         }
-        rvComponents.layoutManager = GridLayoutManager(this@MainActivity , 2)
+        rvComponents.layoutManager = GridLayoutManager(this@MainActivity, 2)
     }
 
     private fun setupSettingButton() = with(binding) {
-
 
 
     }

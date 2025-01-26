@@ -88,6 +88,12 @@
         <item name="android:textStyle">normal</item>
     </style>
 
+    <style name="VerySmallTextView">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textSize">@dimen/very_small_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
 
 
 
