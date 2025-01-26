@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_deposit_money"
+        android:icon="@drawable/convert_card"
+        android:title="واریز پول"
+        />
+
+    <item
+        android:id="@+id/btn_piggy_bank"
+        android:icon="@drawable/money_bag"
+        android:title="قلک ها" />
+
+    <item
+        android:id="@+id/btn_home"
+        android:icon="@drawable/home_2"
+        android:title="خانه" />
+
+    <item
+        android:id="@+id/btn_sellers"
+        android:icon="@drawable/shop_3"
+        android:title="فروشندگان" />
+
+    <item
+        android:id="@+id/btn_setting"
+        android:icon="@drawable/setting_2"
+        android:title="تنظیمات" />
+
+</menu>

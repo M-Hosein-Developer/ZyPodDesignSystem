@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
             ComponentModel(6, "dropdown", R.drawable.zypod),
             ComponentModel(7, "کارد", R.drawable.zypod),
             ComponentModel(9, "نوار پیشرفت", R.drawable.zypod),
-            ComponentModel(10, "جدول", R.drawable.zypod),
             ComponentModel(11, "نوار ناوبری", R.drawable.zypod),
             ComponentModel(12, "نوار بالا", R.drawable.zypod),
             ComponentModel(13, "منو ها", R.drawable.zypod),
@@ -73,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun halfScreenSize(): Int {
+    private fun halfScreenSize(): Int {
         val displayMetrics = DisplayMetrics()
         windowManager.defaultDisplay.getMetrics(displayMetrics)
 
