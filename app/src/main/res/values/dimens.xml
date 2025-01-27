@@ -28,9 +28,10 @@
 
 
    <!--corner-->
-   <dimen name="corner_radius">18dp</dimen>
+   <dimen name="corner_radius_18dp">18dp</dimen>
    <dimen name="corner_radius_20dp">20dp</dimen>
-   <dimen name="button_corner_radius">15dp</dimen>
+   <dimen name="corner_radius_12dp">12dp</dimen>
+   <dimen name="corner_radius_15dp">15dp</dimen>
 
    <!--image view-->
    <dimen name="profile_imageview_size">75dp</dimen>
@@ -38,6 +39,13 @@
    <!--icon-->
    <dimen name="small_icon_size">24dp</dimen>
    <dimen name="medium_icon_size">32dp</dimen>
+
+   <!--notification-->
+   <dimen name="large_notification_width">328dp</dimen>
+   <dimen name="small_notification_width">232dp</dimen>
+   <dimen name="large_notification_height">70dp</dimen>
+   <dimen name="small_notification_height">59dp</dimen>
+
 
 
 </resources>

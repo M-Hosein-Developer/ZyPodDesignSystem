@@ -13,7 +13,7 @@ class DataRepository {
             11 -> R.layout.navigation_detail_layout
             12 -> R.layout.toolbar_detail_layout
             13 -> R.layout.menu_detail_layout
-            14 -> R.layout.activity_detail
+            14 -> R.layout.notification_detail_layout
             15 -> R.layout.activity_detail
             16 -> R.layout.activity_detail
             17 -> R.layout.activity_detail

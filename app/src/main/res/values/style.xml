@@ -36,7 +36,7 @@
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/primary_hover_button_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
@@ -111,10 +111,10 @@
         <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
         <item name="iconTint">@color/focus_input_boarder_color</item>
         <item name="endIconTint">@color/focus_input_boarder_color</item>
         <item name="startIconTint">@color/focus_input_boarder_color</item>
@@ -135,10 +135,10 @@
         <item name="boxStrokeColor">@color/error_input_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxBackgroundColor">@color/error_un_focus_input_boarder_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
         <item name="iconTint">@color/focus_input_boarder_color</item>
         <item name="endIconTint">@color/focus_input_boarder_color</item>
         <item name="startIconTint">@color/focus_input_boarder_color</item>
@@ -159,10 +159,10 @@
         <item name="boxStrokeColor">@color/primary_success_button_color</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
         <item name="iconTint">@color/focus_input_boarder_color</item>
         <item name="endIconTint">@color/focus_input_boarder_color</item>
         <item name="startIconTint">@color/focus_input_boarder_color</item>
@@ -312,6 +312,66 @@
     </style>
 
     <style name="ToolbarStyle" parent="LargeTextView">
+
     </style>
+
+
+    <!--notification-->
+    <style name="LargeNotification">
+        <item name="cornerRadius">@dimen/corner_radius_12dp</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_height">@dimen/large_notification_height</item>
+        <item name="android:layout_width">@dimen/large_notification_width</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="LargeNotification.Default" >
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeColor">@color/focus_input_boarder_color</item>
+    </style>
+
+    <style name="LargeNotification.Error">
+        <item name="cardBackgroundColor">@color/error_un_focus_input_boarder_color</item>
+        <item name="strokeColor">@color/error_input_color</item>
+    </style>
+
+    <style name="LargeNotification.Success">
+        <item name="cardBackgroundColor">@color/secondary_success_button_color</item>
+        <item name="strokeColor">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="SmallNotification">
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_height">@dimen/small_notification_height</item>
+        <item name="android:layout_width">@dimen/small_notification_width</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="SmallNotification.Default">
+        <item name="cardBackgroundColor">@color/focus_input_color</item>
+        <item name="strokeColor">@color/focus_input_boarder_color</item>
+    </style>
+
+    <style name="SmallNotification.Error">
+        <item name="cardBackgroundColor">@color/error_un_focus_input_boarder_color</item>
+        <item name="strokeColor">@color/error_input_color</item>
+    </style>
+
+    <style name="SmallNotification.Success">
+        <item name="cardBackgroundColor">@color/secondary_success_button_color</item>
+        <item name="strokeColor">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="SmallNotification.Warning">
+        <item name="cardBackgroundColor">@color/transparent_warning_color</item>
+        <item name="strokeColor">@color/warning_color</item>
+    </style>
+
+
 
 </resources>

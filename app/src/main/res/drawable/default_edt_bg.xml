@@ -2,7 +2,7 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
     <solid android:color="@color/default_input_color"/>
-    <corners android:radius="@dimen/corner_radius"/>
+    <corners android:radius="@dimen/corner_radius_18dp"/>
     <stroke android:width="@dimen/stroke_size" android:color="@color/default_input_boarder_color"/>
 
 </shape>

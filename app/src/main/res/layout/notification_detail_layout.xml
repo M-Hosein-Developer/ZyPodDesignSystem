@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/TextView.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/notification_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--large-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/default_notification"
+        style="@style/LargeNotification.Default"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_alarm"
+                android:layout_width="@dimen/medium_icon_size"
+                android:layout_height="@dimen/medium_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/default_notif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/SmallTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/notif_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_alarm"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/error_notification"
+        style="@style/LargeNotification.Error"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/default_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_alarm_error"
+                android:layout_width="@dimen/medium_icon_size"
+                android:layout_height="@dimen/medium_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/error_notif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/SmallTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/notif_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_alarm_error"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/success_notification"
+        style="@style/LargeNotification.Success"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/error_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_alarm_success"
+                android:layout_width="@dimen/medium_icon_size"
+                android:layout_height="@dimen/medium_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/success_notif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/SmallTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/notif_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_alarm_success"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--small-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/small_default_notification"
+        style="@style/SmallNotification.Default"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/success_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_alarm_default"
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/info"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/focus_input_boarder_color"
+                app:layout_constraintBottom_toBottomOf="@id/img_alarm_default"
+                app:layout_constraintStart_toEndOf="@+id/img_alarm_default"
+                app:layout_constraintTop_toTopOf="@+id/img_alarm_default" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/NormalTextView"
+                android:layout_width="0dp"
+                android:textColor="@color/focus_input_boarder_color"
+                android:layout_height="0dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/user_have_family_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/small_error_notification"
+        style="@style/SmallNotification.Error"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/small_default_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_small_alarm_error"
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/alert"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/error_input_color"
+                app:layout_constraintBottom_toBottomOf="@id/img_small_alarm_error"
+                app:layout_constraintStart_toEndOf="@+id/img_small_alarm_error"
+                app:layout_constraintTop_toTopOf="@+id/img_small_alarm_error" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/NormalTextView"
+                android:layout_width="0dp"
+                android:textColor="@color/error_input_color"
+                android:layout_height="0dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/user_have_family_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/small_warning_notification"
+        style="@style/SmallNotification.Warning"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/small_default_notification">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_small_alarm_warning"
+                android:layout_width="@dimen/small_icon_size"
+                android:layout_height="@dimen/small_icon_size"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/alert"
+                app:tint="@color/warning_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/warning_color"
+                app:layout_constraintBottom_toBottomOf="@id/img_small_alarm_warning"
+                app:layout_constraintStart_toEndOf="@+id/img_small_alarm_warning"
+                app:layout_constraintTop_toTopOf="@+id/img_small_alarm_warning" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/NormalTextView"
+                android:layout_width="0dp"
+                android:textColor="@color/warning_color"
+                android:layout_height="0dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/user_have_family_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/view3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
