@@ -98,17 +98,15 @@
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-
-
-    <!--default focus style-->
-    <style name="DefaultLayoutInput">
-        <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
-        <item name="boxBackgroundColor">@color/default_input_color</item>
+    <!--input layout-->
+    <style name="TextInput">
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
         <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
         <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="boxStrokeErrorColor">@color/error_input_color</item>
         <item name="iconTint">@color/focus_input_boarder_color</item>
         <item name="endIconTint">@color/focus_input_boarder_color</item>
         <item name="startIconTint">@color/focus_input_boarder_color</item>
@@ -116,60 +114,32 @@
         <item name="buttonIconTint">@color/focus_input_boarder_color</item>
         <item name="closeIconTint">@color/focus_input_boarder_color</item>
         <item name="checkedIconTint">@color/focus_input_boarder_color</item>
-        <item name="android:layoutDirection">rtl</item>
+    </style>
+
+    <style name="TextInput.Default">
+        <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
+        <item name="boxBackgroundColor">@color/default_input_color</item>
         <item name="errorTextColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/focus_input_boarder_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
-        <item name="boxStrokeErrorColor">@color/error_input_color</item>
     </style>
 
-    <!--error style-->
-    <style name="ErrorEditTextInput">
+    <style name="TextInput.Error">
         <item name="boxStrokeColor">@color/error_input_color</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="boxBackgroundColor">@color/error_un_focus_input_boarder_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
-        <item name="iconTint">@color/focus_input_boarder_color</item>
-        <item name="endIconTint">@color/focus_input_boarder_color</item>
-        <item name="startIconTint">@color/focus_input_boarder_color</item>
-        <item name="chipIconTint">@color/focus_input_boarder_color</item>
-        <item name="buttonIconTint">@color/focus_input_boarder_color</item>
-        <item name="closeIconTint">@color/focus_input_boarder_color</item>
-        <item name="checkedIconTint">@color/focus_input_boarder_color</item>
-        <item name="android:layoutDirection">rtl</item>
         <item name="hintTextColor">@color/error_input_color</item>
         <item name="errorTextColor">@color/error_input_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
-        <item name="boxStrokeErrorColor">@color/error_input_color</item>
     </style>
 
-    <!--success style-->
-    <style name="SuccessEditTextInput" >
+    <style name="TextInput.Success" >
         <item name="boxStrokeColor">@color/primary_success_button_color</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_18dp</item>
-        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_18dp</item>
-        <item name="iconTint">@color/focus_input_boarder_color</item>
-        <item name="endIconTint">@color/focus_input_boarder_color</item>
-        <item name="startIconTint">@color/focus_input_boarder_color</item>
-        <item name="chipIconTint">@color/focus_input_boarder_color</item>
-        <item name="buttonIconTint">@color/focus_input_boarder_color</item>
-        <item name="closeIconTint">@color/focus_input_boarder_color</item>
-        <item name="checkedIconTint">@color/focus_input_boarder_color</item>
-        <item name="android:layoutDirection">rtl</item>
         <item name="errorTextColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/primary_success_button_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
-        <item name="boxStrokeErrorColor">@color/error_input_color</item>
     </style>
 
 

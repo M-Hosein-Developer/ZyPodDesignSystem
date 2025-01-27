@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +34,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/DefaultLayoutInput"
+            style="@style/TextInput.Default"
             android:id="@+id/edt_default"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +67,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edt_default" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/ErrorEditTextInput"
+            style="@style/TextInput.Error"
             android:id="@+id/edt_error"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,7 +99,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edt_error" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/SuccessEditTextInput"
+            style="@style/TextInput.Success"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
