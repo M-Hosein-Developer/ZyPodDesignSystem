@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/img_contact"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         android:layout_marginTop="24dp"
         android:src="@drawable/contact"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,8 +53,8 @@
 
     <ImageView
         android:id="@+id/img_address"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         android:layout_marginTop="24dp"
         android:src="@drawable/location"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,8 +86,8 @@
 
     <ImageView
         android:id="@+id/img_account"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         android:layout_marginTop="24dp"
         android:src="@drawable/account"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,8 +119,8 @@
 
     <ImageView
         android:id="@+id/img_gift"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         android:layout_marginTop="24dp"
         android:src="@drawable/gift"
         app:layout_constraintEnd_toEndOf="parent"
@@ -152,8 +152,8 @@
 
     <ImageView
         android:id="@+id/img_password"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="@dimen/large_icon_size"
+        android:layout_height="@dimen/large_icon_size"
         android:layout_marginTop="24dp"
         android:src="@drawable/password"
         app:layout_constraintEnd_toEndOf="parent"

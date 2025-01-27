@@ -37,14 +37,20 @@
    <dimen name="profile_imageview_size">75dp</dimen>
 
    <!--icon-->
-   <dimen name="small_icon_size">24dp</dimen>
-   <dimen name="medium_icon_size">32dp</dimen>
+   <dimen name="small_icon_size">18dp</dimen>
+   <dimen name="medium_icon_size">24dp</dimen>
+   <dimen name="large_icon_size">32dp</dimen>
 
    <!--notification-->
    <dimen name="large_notification_width">328dp</dimen>
    <dimen name="small_notification_width">232dp</dimen>
    <dimen name="large_notification_height">70dp</dimen>
    <dimen name="small_notification_height">59dp</dimen>
+
+   <!--error message-->
+   <dimen name="error_message_width">328dp</dimen>
+   <dimen name="error_message_height">96dp</dimen>
+
 
 
 

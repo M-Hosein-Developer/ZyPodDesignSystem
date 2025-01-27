@@ -34,6 +34,7 @@
     <string name="notification_text">اعلان ها</string>
     <string name="notif_text">درصورتیکه اقساط خود را در موعد مقرر پرداخت نکنید، کل مبلغ قسط و یا بخشی از آن بصورت خودکار از حساب شما برداشت خواهد شد.</string>
     <string name="user_have_family_text">این کاربر در باکیدز خانواده دارد</string>
+    <string name="error_message_text">پیام های خطا</string>
 
 
     <string-array name="spinner_items">

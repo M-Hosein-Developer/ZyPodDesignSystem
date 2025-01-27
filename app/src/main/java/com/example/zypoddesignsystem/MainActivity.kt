@@ -41,13 +41,7 @@ class MainActivity : AppCompatActivity() {
             ComponentModel(12, "نوار ابزار", R.drawable.zypod),
             ComponentModel(13, "منو ها", R.drawable.zypod),
             ComponentModel(14, "اعلان ها", R.drawable.zypod),
-            ComponentModel(15, "پیام های ارور", R.drawable.zypod),
-            ComponentModel(16, "فضاها", R.drawable.zypod),
-            ComponentModel(17, "شعاع گوشه", R.drawable.zypod),
-            ComponentModel(18, "تقویم", R.drawable.zypod),
-            ComponentModel(19, "نشان ها", R.drawable.zypod),
-            ComponentModel(20, "پاپ آپ", R.drawable.zypod),
-            ComponentModel(21, "سرچ بار", R.drawable.zypod)
+            ComponentModel(15, "پیام های ارور", R.drawable.zypod)
         )
 
         setupSettingButton()
