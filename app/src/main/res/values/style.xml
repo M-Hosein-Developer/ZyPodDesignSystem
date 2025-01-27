@@ -311,4 +311,7 @@
         <item name="elevationOverlayColor">@color/focus_input_color</item>
     </style>
 
+    <style name="ToolbarStyle" parent="LargeTextView">
+    </style>
+
 </resources>

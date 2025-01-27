@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             ComponentModel(7, "کارد", R.drawable.zypod),
             ComponentModel(9, "نوار پیشرفت", R.drawable.zypod),
             ComponentModel(11, "نوار ناوبری", R.drawable.zypod),
-            ComponentModel(12, "نوار بالا", R.drawable.zypod),
+            ComponentModel(12, "نوار ابزار", R.drawable.zypod),
             ComponentModel(13, "منو ها", R.drawable.zypod),
             ComponentModel(14, "اعلان ها", R.drawable.zypod),
             ComponentModel(15, "پیام های ارور", R.drawable.zypod),

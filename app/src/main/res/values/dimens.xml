@@ -35,4 +35,6 @@
    <!--image view-->
    <dimen name="profile_imageview_size">75dp</dimen>
 
+   <dimen name="icon_size">24dp</dimen>
+
 </resources>

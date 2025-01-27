@@ -11,7 +11,7 @@ class DataRepository {
             6 -> R.layout.dropdown_detail_layout
             7 -> R.layout.card_detail_layout
             11 -> R.layout.navigation_detail_layout
-            12 -> R.layout.activity_detail
+            12 -> R.layout.toolbar_detail_layout
             13 -> R.layout.activity_detail
             14 -> R.layout.activity_detail
             15 -> R.layout.activity_detail

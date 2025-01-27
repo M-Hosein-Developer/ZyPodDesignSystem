@@ -24,6 +24,7 @@
     <string name="dropdown_menu">منوهای dropdown</string>
     <string name="default_dropdown_menu">منوی پیشفرض</string>
     <string name="progress_text">نوارهای پیشرفت</string>
+    <string name="toolbar_tetx">نوار ابزارها</string>
 
 
     <string-array name="spinner_items">
