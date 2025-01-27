@@ -144,22 +144,22 @@
 
 
     <!--Checkbox-->
-    <style name="Default.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="DefaultCheckbox">
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/focus_input_boarder_color</item>
     </style>
 
-    <style name="Error.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="ErrorCheckbox" >
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/error_input_color</item>
     </style>
 
-    <style name="Success.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="SuccessCheckbox" >
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/primary_success_button_color</item>
     </style>
 
-    <style name="Disable.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="DisableCheckbox" >
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/disable_color</item>
     </style>
@@ -167,29 +167,29 @@
     
     <!--toggle-->
     <!--switch-->
-    <style name="Default.Toggle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+    <style name="DefaultToggle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
         <item name="trackTint">@color/switch_track_color</item>
     </style>
 
-    <style name="Default.Toggle.Icon" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+    <style name="DefaultToggleIcon" parent="Widget.Material3.CompoundButton.MaterialSwitch">
         <item name="trackTint">@color/switch_track_color</item>
         <item name="thumbIconTint">@color/switch_thumb_icon_color</item>
     </style>
 
     <!--radio button-->
-    <style name="Default.Radio.Button" parent="Widget.Material3.CompoundButton.RadioButton">
+    <style name="DefaultRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="buttonTint">@color/focus_input_boarder_color</item>
     </style>
 
-    <style name="Error.Radio.Button" parent="Widget.Material3.CompoundButton.RadioButton">
+    <style name="ErrorRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="buttonTint">@color/error_input_color</item>
     </style>
 
-    <style name="Success.Radio.Button" parent="Widget.Material3.CompoundButton.RadioButton">
+    <style name="SuccessRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="buttonTint">@color/primary_success_button_color</item>
     </style>
 
-    <style name="Disable.Radio.Button" parent="Widget.Material3.CompoundButton.RadioButton">
+    <style name="DisableRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="buttonTint">@color/disable_color</item>
         <item name="android:enabled">false</item>
     </style>

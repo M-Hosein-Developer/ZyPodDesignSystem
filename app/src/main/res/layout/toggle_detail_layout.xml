@@ -34,7 +34,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_disable"
-            style="@style/Default.Toggle"
+            style="@style/DefaultToggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -43,7 +43,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_enable"
-            style="@style/Default.Toggle"
+            style="@style/DefaultToggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
@@ -55,7 +55,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_enable_icon"
-            style="@style/Default.Toggle.Icon"
+            style="@style/DefaultToggleIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
@@ -67,7 +67,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_disable_icon"
-            style="@style/Default.Toggle.Icon"
+            style="@style/DefaultToggleIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
@@ -115,7 +115,7 @@
 
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Default.Radio.Button"
+            style="@style/DefaultRadioButton"
             android:id="@+id/default_radio_unchecked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_unchecked" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Default.Radio.Button"
+            style="@style/DefaultRadioButton"
             android:id="@+id/default_radio_checked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
 
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Error.Radio.Button"
+            style="@style/ErrorRadioButton"
             android:id="@+id/error_radio_unchecked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -147,7 +147,7 @@
             app:layout_constraintTop_toBottomOf="@+id/default_radio_unchecked" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Error.Radio.Button"
+            style="@style/ErrorRadioButton"
             android:id="@+id/error_radio_checked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
 
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Success.Radio.Button"
+            style="@style/SuccessRadioButton"
             android:id="@+id/success_radio_unchecked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -169,7 +169,7 @@
             app:layout_constraintTop_toBottomOf="@+id/error_radio_unchecked" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Success.Radio.Button"
+            style="@style/SuccessRadioButton"
             android:id="@+id/success_radio_checked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
 
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Disable.Radio.Button"
+            style="@style/DisableRadioButton"
             android:id="@+id/disable_radio_unchecked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -191,7 +191,7 @@
             app:layout_constraintTop_toBottomOf="@+id/success_radio_unchecked" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
-            style="@style/Disable.Radio.Button"
+            style="@style/DisableRadioButton"
             android:id="@+id/disable_radio_checked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
