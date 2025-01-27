@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--Button-->
+    <!--Button______________________________________________________________________________________-->
+    <!--parent-->
     <style name="Button">
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="cornerRadius">@dimen/corner_radius_15dp</item>
     </style>
 
+    <!--child-->
     <style name="Button.Default">
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/primary_default_button_color</item>
@@ -51,12 +53,14 @@
 
 
 
-    <!--Text-->
+    <!--Text________________________________________________________________________________________-->
+    <!--parent-->
     <style name="Text">
         <item name="fontFamily">@font/new_iransans_fa_medium</item>
         <item name="android:textStyle">normal</item>
     </style>
 
+    <!--child-->
     <style name="Text.VerySmall">
         <item name="android:textColor">@color/dark_gray</item>
         <item name="android:textSize">@dimen/text_size_10dp</item>
@@ -89,7 +93,7 @@
 
 
 
-    <!--input edt-->
+    <!--input edt___________________________________________________________________________________-->
     <style name="DefaultEditTextInput" >
         <item name="android:layoutDirection">rtl</item>
         <item name="android:textDirection">rtl</item>
@@ -98,7 +102,8 @@
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-    <!--input layout-->
+    <!--input layout________________________________________________________________________________-->
+    <!--parent-->
     <style name="TextInput">
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
@@ -116,6 +121,7 @@
         <item name="checkedIconTint">@color/focus_input_boarder_color</item>
     </style>
 
+    <!--child-->
     <style name="TextInput.Default">
         <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
@@ -143,7 +149,7 @@
     </style>
 
 
-    <!--Checkbox-->
+    <!--Checkbox____________________________________________________________________________________-->
     <style name="DefaultCheckbox">
         <item name="buttonIconTint">@color/default_input_color</item>
         <item name="buttonTint">@color/focus_input_boarder_color</item>
@@ -165,7 +171,7 @@
     </style>
     
     
-    <!--toggle-->
+    <!--toggle______________________________________________________________________________________-->
     <!--switch-->
     <style name="DefaultToggle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
         <item name="trackTint">@color/switch_track_color</item>
@@ -176,7 +182,7 @@
         <item name="thumbIconTint">@color/switch_thumb_icon_color</item>
     </style>
 
-    <!--radio button-->
+    <!--radio button________________________________________________________________________________-->
     <style name="DefaultRadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="buttonTint">@color/focus_input_boarder_color</item>
     </style>
@@ -194,7 +200,8 @@
         <item name="android:enabled">false</item>
     </style>
 
-    <!--drop down menu-->
+    <!--drop down menu______________________________________________________________________________-->
+    <!--parent-->
     <style name="DropDown">
         <item name="android:inputType">text</item>
         <item name="android:spinnerMode">dropdown</item>
@@ -205,6 +212,7 @@
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
+    <!--child-->
     <style name="DropDown.Default">
         <item name="android:background">@drawable/focus_dropdown_bg</item>
     </style>
@@ -224,27 +232,26 @@
     </style>
 
 
-    <!--cards style-->
-    <style name="CardStyle">
+    <!--cards_______________________________________________________________________________________-->
+    <!--parent-->
+    <style name="Card">
         <item name="cardCornerRadius">@dimen/corner_radius_20dp</item>
         <item name="elevation">0dp</item>
-        <item name="strokeWidth">0dp</item>
         <item name="cardBackgroundColor">@color/secondary_default_button_color</item>
     </style>
 
-    <style name="CardWalletStyle">
-        <item name="cardCornerRadius">@dimen/corner_radius_20dp</item>
-        <item name="elevation">0dp</item>
+    <!--child-->
+    <style name="Card.Default">
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="Card.Wallet">
         <item name="strokeWidth">1dp</item>
         <item name="strokeColor">@color/default_input_boarder_color</item>
-        <item name="cardBackgroundColor">@color/secondary_default_button_color</item>
     </style>
 
-    <style name="ProfileImageViewStyle">
 
-    </style>
-
-    <!--navigation bar-->
+    <!--bottom navigation and tool bar______________________________________________________________-->
     <style name="BottomNavigationBar">
         <item name="android:background">@drawable/navigation_bottom_bg</item>
         <item name="android:layoutDirection">rtl</item>
@@ -342,5 +349,9 @@
         <item name="strokeColor">@color/error_un_focus_input_boarder_color</item>
     </style>
 
+
+    <style name="ProfileImageView">
+
+    </style>
 
 </resources>
