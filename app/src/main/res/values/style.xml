@@ -316,58 +316,58 @@
     </style>
 
 
-    <!--notification-->
-    <style name="LargeNotification">
+    <!--notification________________________________________________________________________________-->
+    <!--parent-->
+    <style name="Notification">
         <item name="cornerRadius">@dimen/corner_radius_12dp</item>
         <item name="android:layoutDirection">rtl</item>
         <item name="android:gravity">right</item>
         <item name="android:layout_gravity">right</item>
-        <item name="android:layout_height">@dimen/large_notification_height</item>
-        <item name="android:layout_width">@dimen/large_notification_width</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-    <style name="LargeNotification.Default" >
+    <style name="Notification.Large">
+        <item name="android:layout_height">@dimen/large_notification_height</item>
+        <item name="android:layout_width">@dimen/large_notification_width</item>
+    </style>
+
+    <style name="Notification.Small">
+        <item name="android:layout_height">@dimen/small_notification_height</item>
+        <item name="android:layout_width">@dimen/small_notification_width</item>
+    </style>
+
+    <!--child-->
+    <style name="Notification.Large.Default" >
         <item name="cardBackgroundColor">@color/white</item>
         <item name="strokeColor">@color/focus_input_boarder_color</item>
     </style>
 
-    <style name="LargeNotification.Error">
+    <style name="Notification.Large.Error">
         <item name="cardBackgroundColor">@color/error_un_focus_input_boarder_color</item>
         <item name="strokeColor">@color/error_input_color</item>
     </style>
 
-    <style name="LargeNotification.Success">
+    <style name="Notification.Large.Success">
         <item name="cardBackgroundColor">@color/secondary_success_button_color</item>
         <item name="strokeColor">@color/primary_success_button_color</item>
     </style>
 
-    <style name="SmallNotification">
-        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:gravity">right</item>
-        <item name="android:layout_gravity">right</item>
-        <item name="android:layout_height">@dimen/small_notification_height</item>
-        <item name="android:layout_width">@dimen/small_notification_width</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
-    </style>
-
-    <style name="SmallNotification.Default">
+    <style name="Notification.Small.Default">
         <item name="cardBackgroundColor">@color/focus_input_color</item>
         <item name="strokeColor">@color/focus_input_boarder_color</item>
     </style>
 
-    <style name="SmallNotification.Error">
+    <style name="Notification.Small.Error">
         <item name="cardBackgroundColor">@color/error_un_focus_input_boarder_color</item>
         <item name="strokeColor">@color/error_input_color</item>
     </style>
 
-    <style name="SmallNotification.Success">
+    <style name="Notification.Small.Success">
         <item name="cardBackgroundColor">@color/secondary_success_button_color</item>
         <item name="strokeColor">@color/primary_success_button_color</item>
     </style>
 
-    <style name="SmallNotification.Warning">
+    <style name="Notification.Small.Warning">
         <item name="cardBackgroundColor">@color/transparent_warning_color</item>
         <item name="strokeColor">@color/warning_color</item>
     </style>
