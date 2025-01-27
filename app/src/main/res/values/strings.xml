@@ -25,6 +25,12 @@
     <string name="default_dropdown_menu">منوی پیشفرض</string>
     <string name="progress_text">نوارهای پیشرفت</string>
     <string name="toolbar_tetx">نوار ابزارها</string>
+    <string name="menu_text">منوها</string>
+    <string name="register_code">ثبت کدمعرف</string>
+    <string name="address_text">آدرس ها</string>
+    <string name="account_text">تسویه حساب</string>
+    <string name="invite_friends">دعوت از دوستان</string>
+    <string name="login_password_text">رمز ورود به برنامه</string>
 
 
     <string-array name="spinner_items">

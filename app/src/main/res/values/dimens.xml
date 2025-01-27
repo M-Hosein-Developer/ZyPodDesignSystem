@@ -35,6 +35,9 @@
    <!--image view-->
    <dimen name="profile_imageview_size">75dp</dimen>
 
-   <dimen name="icon_size">24dp</dimen>
+   <!--icon-->
+   <dimen name="small_icon_size">24dp</dimen>
+   <dimen name="medium_icon_size">32dp</dimen>
+
 
 </resources>

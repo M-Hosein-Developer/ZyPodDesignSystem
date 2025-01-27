@@ -48,16 +48,16 @@
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/faq"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/back"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -103,16 +103,16 @@
 
                 <ImageView
                     android:id="@+id/imageView41"
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/faq_f"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/back_f"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -158,16 +158,16 @@
 
                 <ImageView
                     android:id="@+id/imageView42"
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/faq_d"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/back_d"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -213,16 +213,16 @@
 
                 <ImageView
                     android:id="@+id/imageView43"
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/faq"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/menu"
                     android:layout_marginStart="6dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -230,8 +230,8 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:layout_width="@dimen/icon_size"
-                    android:layout_height="@dimen/icon_size"
+                    android:layout_width="@dimen/small_icon_size"
+                    android:layout_height="@dimen/small_icon_size"
                     android:src="@drawable/back"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
