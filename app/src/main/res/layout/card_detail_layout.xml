@@ -14,7 +14,7 @@
 
         <TextView
             android:id="@+id/txt_title"
-            style="@style/TextView.Title"
+            style="@style/Text.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -40,7 +40,7 @@
 
                 <TextView
                     android:id="@+id/txt_price"
-                    style="@style/LargeTextView"
+                    style="@style/Text.Large"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -55,7 +55,7 @@
 
                 <TextView
                     android:id="@+id/wallet_balance"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="موجودی کیف پول: "
@@ -106,7 +106,7 @@
 
                 <TextView
                     android:id="@+id/txt_profile_1"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -118,7 +118,7 @@
 
                 <TextView
                     android:id="@+id/txt_profile_2"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -188,7 +188,7 @@
 
                 <TextView
                     android:id="@+id/txt_profile_1_2"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -200,7 +200,7 @@
 
                 <TextView
                     android:id="@+id/txt_profile_2_2"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -276,7 +276,7 @@
 
 
                     <TextView
-                        style="@style/NormalTextView"
+                        style="@style/Text.Normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="پول توجیبی بابا"
@@ -297,7 +297,7 @@
 
                     <TextView
                         android:id="@+id/price_wallet"
-                        style="@style/NormalTextView"
+                        style="@style/Text.Normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
@@ -318,7 +318,7 @@
 
                     <TextView
                         android:id="@+id/price_bill"
-                        style="@style/NormalTextView"
+                        style="@style/Text.Normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="مدت قرارداد"
@@ -329,7 +329,7 @@
 
                     <TextView
                         android:id="@+id/price_time"
-                        style="@style/NormalTextView"
+                        style="@style/Text.Normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="دوره پرداخت"
@@ -339,7 +339,7 @@
 
                     <TextView
                         android:id="@+id/price_bill_1"
-                        style="@style/LargeTextView"
+                        style="@style/Text.Large"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -351,7 +351,7 @@
 
                     <TextView
                         android:id="@+id/price_wallet_1"
-                        style="@style/LargeTextView"
+                        style="@style/Text.Large"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -363,7 +363,7 @@
 
                     <TextView
                         android:id="@+id/price_time_1"
-                        style="@style/LargeTextView"
+                        style="@style/Text.Large"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -376,7 +376,7 @@
 
                     <TextView
                         android:id="@+id/detail_payment"
-                        style="@style/NormalTextView"
+                        style="@style/Text.Normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="22dp"
@@ -437,7 +437,7 @@
 
                 <TextView
                     android:id="@+id/txt_send"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black_transparent_text_color"
@@ -458,7 +458,7 @@
 
                 <TextView
                     android:id="@+id/txt_city"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -478,7 +478,7 @@
 
                 <TextView
                     android:id="@+id/txt_city_1"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="2dp"
@@ -489,7 +489,7 @@
 
                 <TextView
                     android:id="@+id/txt_address"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -509,7 +509,7 @@
 
                 <TextView
                     android:id="@+id/txt_email"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="4dp"
@@ -530,7 +530,7 @@
 
                 <TextView
                     android:id="@+id/txt_phone"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
@@ -591,7 +591,7 @@
 
                 <TextView
                     android:id="@+id/detail"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="جزئیات پرداخت"
@@ -602,7 +602,7 @@
 
                 <TextView
                     android:id="@+id/wallet_balance_1"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -613,7 +613,7 @@
 
                 <TextView
                     android:id="@+id/wallet_price"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="100,000 تومان"
@@ -636,7 +636,7 @@
 
                 <TextView
                     android:id="@+id/price"
-                    style="@style/SmallTextView"
+                    style="@style/Text.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -648,7 +648,7 @@
 
                 <TextView
                     android:id="@+id/txt_total_price"
-                    style="@style/NormalTextView"
+                    style="@style/Text.Normal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="۴,۰0۰,000 تومان"

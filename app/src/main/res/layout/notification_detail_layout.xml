@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/txt_title"
-        style="@style/TextView.Title"
+        style="@style/Text.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -42,7 +42,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                style="@style/SmallTextView"
+                style="@style/Text.Small"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -82,7 +82,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                style="@style/SmallTextView"
+                style="@style/Text.Small"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -122,7 +122,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                style="@style/SmallTextView"
+                style="@style/Text.Small"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -175,7 +175,7 @@
 
             <TextView
                 android:id="@+id/textView2"
-                style="@style/NormalTextView"
+                style="@style/Text.Normal"
                 android:layout_width="0dp"
                 android:textColor="@color/focus_input_boarder_color"
                 android:layout_height="0dp"
@@ -228,7 +228,7 @@
 
             <TextView
                 android:id="@+id/textView3"
-                style="@style/NormalTextView"
+                style="@style/Text.Normal"
                 android:layout_width="0dp"
                 android:textColor="@color/error_input_color"
                 android:layout_height="0dp"
@@ -282,7 +282,7 @@
 
             <TextView
                 android:id="@+id/textView4"
-                style="@style/NormalTextView"
+                style="@style/Text.Normal"
                 android:layout_width="0dp"
                 android:textColor="@color/warning_color"
                 android:layout_height="0dp"

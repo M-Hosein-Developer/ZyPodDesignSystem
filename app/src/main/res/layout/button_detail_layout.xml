@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
 
@@ -14,7 +15,7 @@
 
         <TextView
             android:id="@+id/txt_title"
-            style="@style/TextView.Title"
+            style="@style/Text.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -24,7 +25,7 @@
 
         <TextView
             android:id="@+id/textView"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -34,19 +35,19 @@
 
         <Button
             android:id="@+id/extra_small_button"
-            style="@style/Button.Primary.Default"
+            style="@style/Button.Default"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
+            android:textSize="@dimen/text_size_10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/small_button"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <Button
             android:id="@+id/small_button"
-            style="@style/Button.Primary.Default"
+            style="@style/Button.Default"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -60,7 +61,7 @@
 
         <Button
             android:id="@+id/button1"
-            style="@style/Button.Primary.Default"
+            style="@style/Button.Default"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -73,7 +74,7 @@
 
         <Button
             android:id="@+id/large_button"
-            style="@style/Button.Primary.Default"
+            style="@style/Button.Default"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
@@ -90,7 +91,7 @@
 
         <TextView
             android:id="@+id/btn_secondary_1"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -100,7 +101,7 @@
 
         <Button
             android:id="@+id/extra_small_button1"
-            style="@style/Button.Secondary"
+            style="@style/Button.Outline"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -112,7 +113,7 @@
 
         <Button
             android:id="@+id/small_button1"
-            style="@style/Button.Secondary"
+            style="@style/Button.Outline"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -126,7 +127,7 @@
 
         <Button
             android:id="@+id/button11"
-            style="@style/Button.Secondary"
+            style="@style/Button.Outline"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -139,7 +140,7 @@
 
         <Button
             android:id="@+id/large_button1"
-            style="@style/Button.Secondary"
+            style="@style/Button.Outline"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
@@ -155,7 +156,7 @@
 
         <TextView
             android:id="@+id/btn_hover"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -195,13 +196,12 @@
             style="@style/Button.Hover"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/large_button11"
             app:layout_constraintTop_toBottomOf="@+id/extra_small_button11" />
-
 
         <Button
             android:id="@+id/large_button11"
@@ -221,7 +221,7 @@
 
         <TextView
             android:id="@+id/btn_danger"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -231,7 +231,7 @@
 
         <Button
             android:id="@+id/extra_small_button111"
-            style="@style/Button.Primary.Danger"
+            style="@style/Button.Danger"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -243,7 +243,7 @@
 
         <Button
             android:id="@+id/small_button111"
-            style="@style/Button.Primary.Danger"
+            style="@style/Button.Danger"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -257,7 +257,7 @@
 
         <Button
             android:id="@+id/button1111"
-            style="@style/Button.Primary.Danger"
+            style="@style/Button.Danger"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -270,7 +270,7 @@
 
         <Button
             android:id="@+id/large_button111"
-            style="@style/Button.Primary.Danger"
+            style="@style/Button.Danger"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
@@ -286,7 +286,7 @@
 
         <TextView
             android:id="@+id/btn_success"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -296,7 +296,7 @@
 
         <Button
             android:id="@+id/extra_small_button1111"
-            style="@style/Button.Primary.Success"
+            style="@style/Button.Success"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -308,7 +308,7 @@
 
         <Button
             android:id="@+id/small_button1111"
-            style="@style/Button.Primary.Success"
+            style="@style/Button.Success"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -322,7 +322,7 @@
 
         <Button
             android:id="@+id/button11111"
-            style="@style/Button.Primary.Success"
+            style="@style/Button.Success"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -335,7 +335,7 @@
 
         <Button
             android:id="@+id/large_button1111"
-            style="@style/Button.Primary.Success"
+            style="@style/Button.Success"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
@@ -352,7 +352,7 @@
 
         <TextView
             android:id="@+id/btn_disable_mode1"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -362,7 +362,7 @@
 
         <Button
             android:id="@+id/extra_small_button11111"
-            style="@style/Button.Disable.Mode1"
+            style="@style/Button.DisableDark"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -374,7 +374,7 @@
 
         <Button
             android:id="@+id/small_button111111"
-            style="@style/Button.Disable.Mode1"
+            style="@style/Button.DisableDark"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -388,7 +388,7 @@
 
         <Button
             android:id="@+id/button111111"
-            style="@style/Button.Disable.Mode1"
+            style="@style/Button.DisableDark"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -401,7 +401,7 @@
 
         <Button
             android:id="@+id/large_button11111"
-            style="@style/Button.Disable.Mode1"
+            style="@style/Button.DisableDark"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
@@ -418,7 +418,7 @@
 
         <TextView
             android:id="@+id/btn_disable_mode2"
-            style="@style/TextView.Desc"
+            style="@style/Text.Desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -428,7 +428,7 @@
 
         <Button
             android:id="@+id/extra_small_button111111"
-            style="@style/Button.Disable.Mode2"
+            style="@style/Button.DisableLight"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -440,7 +440,7 @@
 
         <Button
             android:id="@+id/small_button1111111"
-            style="@style/Button.Disable.Mode2"
+            style="@style/Button.DisableLight"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -454,7 +454,7 @@
 
         <Button
             android:id="@+id/button1111111"
-            style="@style/Button.Disable.Mode2"
+            style="@style/Button.DisableLight"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -467,7 +467,7 @@
 
         <Button
             android:id="@+id/large_button111111"
-            style="@style/Button.Disable.Mode2"
+            style="@style/Button.DisableLight"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"

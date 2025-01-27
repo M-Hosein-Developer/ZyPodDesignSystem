@@ -35,7 +35,7 @@
 
     <TextView
         android:id="@+id/txt_step"
-        style="@style/VerySmallTextView"
+        style="@style/Text.VerySmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -47,7 +47,7 @@
 
     <TextView
         android:id="@+id/txt_step_number"
-        style="@style/SmallTextView"
+        style="@style/Text.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
