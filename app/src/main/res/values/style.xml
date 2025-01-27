@@ -195,49 +195,31 @@
     </style>
 
     <!--drop down menu-->
-    <style name="DefaultDropDown">
+    <style name="DropDown">
+        <item name="android:inputType">text</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="DropDown.Default">
         <item name="android:background">@drawable/focus_dropdown_bg</item>
-        <item name="android:inputType">text</item>
-        <item name="android:spinnerMode">dropdown</item>
-        <item name="android:textColor">@color/dark_gray</item>
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:layout_gravity">right</item>
-        <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-    <style name="ErrorDropDown">
+    <style name="DropDown.Error">
         <item name="android:background">@drawable/error_dropdown_bg</item>
-        <item name="android:inputType">text</item>
-        <item name="android:spinnerMode">dropdown</item>
-        <item name="android:textColor">@color/dark_gray</item>
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:layout_gravity">right</item>
-        <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-    <style name="SuccessDropDown">
+    <style name="DropDown.Success">
         <item name="android:background">@drawable/success_dropdown_bg</item>
-        <item name="android:inputType">text</item>
-        <item name="android:spinnerMode">dropdown</item>
-        <item name="android:textColor">@color/dark_gray</item>
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:layout_gravity">right</item>
-        <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
     </style>
 
-    <style name="DisableDropDown">
+    <style name="DropDown.Disable">
         <item name="android:background">@drawable/disable_dropdown_bg</item>
-        <item name="android:inputType">text</item>
-        <item name="android:spinnerMode">dropdown</item>
-        <item name="android:textColor">@color/dark_gray</item>
-        <item name="android:layoutDirection">rtl</item>
-        <item name="android:layout_gravity">right</item>
         <item name="android:enabled">false</item>
-        <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="android:clickable">false</item>
     </style>
 
