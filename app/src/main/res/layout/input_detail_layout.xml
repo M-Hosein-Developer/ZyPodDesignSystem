@@ -47,7 +47,7 @@
             app:startIconDrawable="@drawable/baseline_settings_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/DefaultEditTextInput"
+                style="@style/EditTextInput"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />
@@ -79,7 +79,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_error"
             app:startIconDrawable="@drawable/baseline_settings_24">
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/DefaultEditTextInput"
+                style="@style/EditTextInput"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />
@@ -104,14 +104,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             app:endIconDrawable="@drawable/component"
+            app:errorIconDrawable="@drawable/baseline_settings_24"
             app:helperText="سلام"
+            app:passwordToggleEnabled="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_success"
             app:startIconDrawable="@drawable/baseline_settings_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/DefaultEditTextInput"
+                style="@style/EditTextInput"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />

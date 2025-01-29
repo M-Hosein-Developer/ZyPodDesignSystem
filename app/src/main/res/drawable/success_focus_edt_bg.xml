@@ -3,6 +3,6 @@
 
     <solid android:color="@color/default_input_color"/>
     <corners android:radius="@dimen/corner_radius_18dp"/>
-    <stroke android:width="@dimen/stroke_size" android:color="@color/primary_success_button_color"/>
+    <stroke android:width="@dimen/stroke_size_1dp" android:color="@color/primary_success_button_color"/>
 
 </shape>

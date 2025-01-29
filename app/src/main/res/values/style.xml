@@ -17,20 +17,20 @@
     <style name="Button.Outline" >
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/secondary_default_button_color</item>
-        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
     <style name="Button.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
-        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
     </style>
 
     <style name="Button.DisableLight" >
         <item name="android:textColor">@color/secondary_disable_text_color</item>
         <item name="backgroundTint">@color/secondary_default_button_color</item>
-        <item name="strokeWidth">@dimen/stroke_size</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
     </style>
 
@@ -38,6 +38,13 @@
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/primary_hover_button_color</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Hover.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
     </style>
 
     <style name="Button.Error" >
@@ -256,17 +263,42 @@
 
 
     <!--input edt___________________________________________________________________________________-->
-    <style name="DefaultEditTextInput" >
+    <style name="EditTextInput" >
         <item name="android:layoutDirection">rtl</item>
         <item name="android:textDirection">rtl</item>
         <item name="android:layout_gravity">start</item>
         <item name="android:gravity">start</item>
+        <item name="android:maxLines">1</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
+    </style>
+
+    <style name="EditTextInput.NumberPassword">
+        <item name="android:inputType">numberPassword</item>
+    </style>
+
+    <style name="EditTextInput.TextPassword">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="EditTextInput.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="EditTextInput.Number">
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="EditTextInput.Text">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditTextInput.Date">
+        <item name="android:inputType">date</item>
     </style>
 
     <!--input layout________________________________________________________________________________-->
     <!--parent-->
-    <style name="TextInput">
+    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
@@ -276,35 +308,54 @@
         <item name="boxStrokeErrorColor">@color/error_input_color</item>
         <item name="iconTint">@color/focus_input_boarder_color</item>
         <item name="endIconTint">@color/focus_input_boarder_color</item>
+        <item name="android:direction">right_to_left</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="cursorColor">@color/focus_input_boarder_color</item>
+        <item name="cursorErrorColor">@color/error_input_color</item>
         <item name="startIconTint">@color/focus_input_boarder_color</item>
         <item name="chipIconTint">@color/focus_input_boarder_color</item>
         <item name="buttonIconTint">@color/focus_input_boarder_color</item>
         <item name="closeIconTint">@color/focus_input_boarder_color</item>
         <item name="checkedIconTint">@color/focus_input_boarder_color</item>
+        <item name="errorTextColor">@color/error_input_color</item>
+        <item name="errorIconTint">@color/error_input_color</item>
     </style>
+
+    <style name="CursorBlue">
+        <item name="colorPrimary">@color/focus_input_boarder_color</item>
+    </style>
+
+    <style name="CursorRed">
+        <item name="colorPrimary">@color/error_input_color</item>
+    </style>
+
+    <style name="CursorGreen">
+        <item name="colorPrimary">@color/primary_success_button_color</item>
+    </style>
+
 
     <!--child-->
     <style name="TextInput.Default">
+        <item name="android:theme">@style/CursorBlue</item>
         <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
-        <item name="errorTextColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/focus_input_boarder_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
     </style>
 
     <style name="TextInput.Error">
+        <item name="android:theme">@style/CursorRed</item>
         <item name="boxStrokeColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/error_input_color</item>
-        <item name="errorTextColor">@color/error_input_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
     </style>
 
     <style name="TextInput.Success" >
+        <item name="android:theme">@style/CursorGreen</item>
         <item name="boxStrokeColor">@color/primary_success_button_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
-        <item name="errorTextColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/primary_success_button_color</item>
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">10</item>
@@ -406,11 +457,11 @@
 
     <!--child-->
     <style name="Card.Default">
-        <item name="strokeWidth">0dp</item>
+        <item name="strokeWidth">@dimen/stroke_size_0dp</item>
     </style>
 
     <style name="Card.Wallet">
-        <item name="strokeWidth">1dp</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/default_input_boarder_color</item>
     </style>
 
