@@ -34,7 +34,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_disable"
-            style="@style/DefaultToggle"
+            style="@style/Switch.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -43,7 +43,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_enable"
-            style="@style/DefaultToggle"
+            style="@style/Switch.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
@@ -55,7 +55,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_enable_icon"
-            style="@style/DefaultToggleIcon"
+            style="@style/Switch.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"
@@ -67,7 +67,7 @@
 
         <com.google.android.material.materialswitch.MaterialSwitch
             android:id="@+id/switch_disable_icon"
-            style="@style/DefaultToggleIcon"
+            style="@style/Switch.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="50dp"

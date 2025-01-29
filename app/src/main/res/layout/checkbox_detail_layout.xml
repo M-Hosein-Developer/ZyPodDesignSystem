@@ -48,7 +48,7 @@
 
         <CheckBox
             android:id="@+id/default_unchecked"
-            style="@style/DefaultCheckbox"
+            style="@style/CheckBox.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -58,7 +58,7 @@
 
         <CheckBox
             android:id="@+id/default_checked"
-            style="@style/DefaultCheckbox"
+            style="@style/CheckBox.Default"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -70,7 +70,7 @@
 
         <CheckBox
             android:id="@+id/error_unchecked"
-            style="@style/ErrorCheckbox"
+            style="@style/CheckBox.Error"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -80,7 +80,7 @@
 
         <CheckBox
             android:id="@+id/error_checked"
-            style="@style/ErrorCheckbox"
+            style="@style/CheckBox.Error"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -91,7 +91,7 @@
 
         <CheckBox
             android:id="@+id/success_unchecked"
-            style="@style/SuccessCheckbox"
+            style="@style/CheckBox.Success"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -101,7 +101,7 @@
 
         <CheckBox
             android:id="@+id/success_checked"
-            style="@style/SuccessCheckbox"
+            style="@style/CheckBox.Success"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -112,7 +112,7 @@
 
         <CheckBox
             android:id="@+id/disable_unchecked"
-            style="@style/DisableCheckbox"
+            style="@style/CheckBox.Disable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -123,7 +123,7 @@
 
         <CheckBox
             android:id="@+id/disable_checked"
-            style="@style/DisableCheckbox"
+            style="@style/CheckBox.Disable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"

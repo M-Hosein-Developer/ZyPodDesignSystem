@@ -41,7 +41,7 @@
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
-    <style name="Button.Danger" >
+    <style name="Button.Error" >
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/primary_danger_button_color</item>
     </style>
@@ -150,35 +150,37 @@
 
 
     <!--Checkbox____________________________________________________________________________________-->
-    <style name="DefaultCheckbox">
+    <style name="CheckBox">
         <item name="buttonIconTint">@color/default_input_color</item>
+    </style>
+
+    <style name="CheckBox.Default">
         <item name="buttonTint">@color/focus_input_boarder_color</item>
     </style>
 
-    <style name="ErrorCheckbox" >
-        <item name="buttonIconTint">@color/default_input_color</item>
+    <style name="CheckBox.Error" >
         <item name="buttonTint">@color/error_input_color</item>
     </style>
 
-    <style name="SuccessCheckbox" >
-        <item name="buttonIconTint">@color/default_input_color</item>
+    <style name="CheckBox.Success" >
         <item name="buttonTint">@color/primary_success_button_color</item>
     </style>
 
-    <style name="DisableCheckbox" >
-        <item name="buttonIconTint">@color/default_input_color</item>
+    <style name="CheckBox.Disable" >
         <item name="buttonTint">@color/disable_color</item>
     </style>
     
     
     <!--toggle______________________________________________________________________________________-->
     <!--switch-->
-    <style name="DefaultToggle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+    <style name="Switch">
         <item name="trackTint">@color/switch_track_color</item>
     </style>
 
-    <style name="DefaultToggleIcon" parent="Widget.Material3.CompoundButton.MaterialSwitch">
-        <item name="trackTint">@color/switch_track_color</item>
+    <style name="Switch.Default" >
+    </style>
+
+    <style name="Switch.Icon">
         <item name="thumbIconTint">@color/switch_thumb_icon_color</item>
     </style>
 
@@ -264,7 +266,7 @@
         <item name="elevationOverlayColor">@color/focus_input_color</item>
     </style>
 
-    <style name="ToolbarStyle" parent="Text.Large">
+    <style name="Toolbar" parent="Text.Large">
 
     </style>
 

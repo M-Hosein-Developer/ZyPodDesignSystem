@@ -231,7 +231,7 @@
 
         <Button
             android:id="@+id/extra_small_button111"
-            style="@style/Button.Danger"
+            style="@style/Button.Error"
             android:layout_width="@dimen/extra_small_button_width"
             android:layout_height="@dimen/extra_small_button_height"
             android:layout_marginTop="16dp"
@@ -243,7 +243,7 @@
 
         <Button
             android:id="@+id/small_button111"
-            style="@style/Button.Danger"
+            style="@style/Button.Error"
             android:layout_width="@dimen/small_button_width"
             android:layout_height="@dimen/small_button_height"
             android:layout_marginEnd="8dp"
@@ -257,7 +257,7 @@
 
         <Button
             android:id="@+id/button1111"
-            style="@style/Button.Danger"
+            style="@style/Button.Error"
             android:layout_width="@dimen/medium_button_width"
             android:layout_height="@dimen/medium_button_height"
             android:layout_marginTop="8dp"
@@ -270,7 +270,7 @@
 
         <Button
             android:id="@+id/large_button111"
-            style="@style/Button.Danger"
+            style="@style/Button.Error"
             android:layout_width="@dimen/large_button_width"
             android:layout_height="@dimen/large_button_height"
             android:layout_marginEnd="8dp"
