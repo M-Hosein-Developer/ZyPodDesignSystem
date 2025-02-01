@@ -45,6 +45,7 @@
     <color name="error_un_focus_input_boarder_color">#FFEBEB</color>
     <color name="error_input_color">#FF6565</color>
     <color name="disable_input_boarder_color">#E5E6EF</color>
+    <color name="hintText">#9C9C9C</color>
 
     <color name="disable_color">#D3D3D3</color>
 

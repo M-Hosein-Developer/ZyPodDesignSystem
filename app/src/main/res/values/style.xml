@@ -5,65 +5,459 @@
     <!--parent-->
     <style name="Button">
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
-        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+
     </style>
 
+    <style name="Button.ExtraSmall">
+        <item name="android:textSize">@dimen/text_size_10sp</item>
+        <item name="android:layout_width">@dimen/extra_small_button_width</item>
+        <item name="android:layout_height">@dimen/extra_small_button_height</item>
+    </style>
+
+    <style name="Button.Small">
+        <item name="android:textSize">@dimen/text_size_12sp</item>
+        <item name="android:layout_width">@dimen/small_button_width</item>
+        <item name="android:layout_height">@dimen/small_button_height</item>
+    </style>
+
+    <style name="Button.Medium">
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:layout_width">@dimen/medium_button_width</item>
+        <item name="android:layout_height">@dimen/medium_button_height</item>
+    </style>
+
+    <style name="Button.Large">
+        <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:layout_width">@dimen/large_button_width</item>
+        <item name="android:layout_height">@dimen/large_button_height</item>
+    </style>
+
+
+    <style name="Button.ExtraSmall.Rounded">
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
+    </style>
+
+    <style name="Button.Small.Rounded">
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
+    </style>
+
+    <style name="Button.Medium.Rounded">
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
+    </style>
+
+    <style name="Button.Large.Rounded">
+        <item name="cornerRadius">@dimen/corner_radius_15dp</item>
+    </style>
+
+
+
     <!--child-->
-    <style name="Button.Default">
+    <style name="Button.ExtraSmall.Default">
         <item name="backgroundTint">@color/primary_default_button_color</item>
     </style>
 
-    <style name="Button.Outline" >
+    <style name="Button.Small.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+
+    <style name="Button.ExtraSmall.Rounded.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.Default">
+        <item name="backgroundTint">@color/primary_default_button_color</item>
+    </style>
+
+
+
+
+
+
+    <style name="Button.ExtraSmall.Outline" >
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
-    <style name="Button.DisableDark">
+    <style name="Button.Small.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.Outline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+
+
+
+
+    <style name="Button.ExtraSmall.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
     </style>
 
-    <style name="Button.DisableLight" >
+    <style name="Button.Small.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+        </style>
+
+    <style name="Button.Medium.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Large.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+        </style>
+
+    <style name="Button.Medium.Rounded.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.DisableDark">
+        <item name="backgroundTint">@color/primary_disable_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+
+
+
+
+
+    <style name="Button.ExtraSmall.DisableLight" >
         <item name="android:textColor">@color/secondary_disable_text_color</item>
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
     </style>
 
-    <style name="Button.Hover" >
+    <style name="Button.Small.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Medium.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Large.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.DisableLight" >
+        <item name="android:textColor">@color/secondary_disable_text_color</item>
+        <item name="backgroundTint">@color/secondary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+        <item name="strokeColor">@color/primary_disable_button_color</item>
+    </style>
+
+
+
+
+    <style name="Button.ExtraSmall.Hover" >
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/primary_hover_button_color</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
     </style>
 
-    <style name="Button.Hover.Outline" >
+    <style name="Button.Small.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.Hover" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+    </style>
+
+
+
+
+
+    <style name="Button.ExtraSmall.HoverOutline" >
         <item name="android:textColor">@color/primary_default_button_color</item>
         <item name="backgroundTint">@color/primary_hover_button_color</item>
         <item name="strokeColor">@color/primary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
     </style>
 
-    <style name="Button.Error" >
+    <style name="Button.Small.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.Medium.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.Large.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.Small.Rounded.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+    <style name="Button.Large.Rounded.HoverOutline" >
+        <item name="android:textColor">@color/primary_default_button_color</item>
+        <item name="backgroundTint">@color/primary_hover_button_color</item>
+        <item name="strokeColor">@color/primary_default_button_color</item>
+        <item name="strokeWidth">@dimen/stroke_size_1dp</item>
+    </style>
+
+
+
+
+
+    <style name="Button.ExtraSmall.Red" >
         <item name="backgroundTint">@color/primary_danger_button_color</item>
     </style>
 
-    <style name="Button.Success" >
+    <style name="Button.Small.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.Large.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.Red" >
+        <item name="backgroundTint">@color/primary_danger_button_color</item>
+    </style>
+
+
+
+
+
+
+    <style name="Button.ExtraSmall.Green" >
         <item name="backgroundTint">@color/primary_success_button_color</item>
     </style>
 
+    <style name="Button.Small.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.Large.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.ExtraSmall.Rounded.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.Small.Rounded.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.Medium.Rounded.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
+
+    <style name="Button.Large.Rounded.Green" >
+        <item name="backgroundTint">@color/primary_success_button_color</item>
+    </style>
 
 
     <!--Text________________________________________________________________________________________-->
     <!--parent-->
     <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="fontFamily">@font/new_iransans_fa_medium</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/gray_xTransparent_text_color</item>
         <item name="android:textSize">@dimen/text_size_14sp</item>
+        <item name="android:gravity">right|center_vertical</item>
     </style>
 
     <!--child-->
@@ -263,42 +657,46 @@
 
 
     <!--input edt___________________________________________________________________________________-->
-    <style name="EditTextInput" >
+    <style name="EditText" >
+        <item name="android:layout_height">@dimen/edit_text_height</item>
         <item name="android:layoutDirection">rtl</item>
         <item name="android:textDirection">rtl</item>
         <item name="android:layout_gravity">start</item>
         <item name="android:gravity">start</item>
         <item name="android:maxLines">1</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
+        <item name="android:textColorHint">@color/hintText</item>
     </style>
 
-    <style name="EditTextInput.NumberPassword">
+    <style name="EditText.NumberPassword">
         <item name="android:inputType">numberPassword</item>
     </style>
 
-    <style name="EditTextInput.TextPassword">
+    <style name="EditText.TextPassword">
         <item name="android:inputType">textPassword</item>
     </style>
 
-    <style name="EditTextInput.Email">
+    <style name="EditText.Email">
         <item name="android:inputType">textEmailAddress</item>
     </style>
 
-    <style name="EditTextInput.Number">
-        <item name="android:inputType">number</item>
+    <style name="EditText.Number">
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:digits">1234567890</item>
     </style>
 
-    <style name="EditTextInput.Text">
+    <style name="EditText.Text">
         <item name="android:inputType">text</item>
     </style>
 
-    <style name="EditTextInput.Date">
+    <style name="EditText.Date">
         <item name="android:inputType">date</item>
     </style>
 
     <!--input layout________________________________________________________________________________-->
     <!--parent-->
-    <style name="TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="TextInputBoxLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">wrap_content</item>
         <item name="fontFamily">@font/new_iransans_fa_regular</item>
         <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_18dp</item>
         <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_18dp</item>
@@ -335,7 +733,7 @@
 
 
     <!--child-->
-    <style name="TextInput.Default">
+    <style name="TextInputBoxLayout.Default">
         <item name="android:theme">@style/CursorBlue</item>
         <item name="boxStrokeColor">@color/focus_input_boarder_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
@@ -344,7 +742,7 @@
         <item name="counterMaxLength">10</item>
     </style>
 
-    <style name="TextInput.Error">
+    <style name="TextInputBoxLayout.Error">
         <item name="android:theme">@style/CursorRed</item>
         <item name="boxStrokeColor">@color/error_input_color</item>
         <item name="hintTextColor">@color/error_input_color</item>
@@ -352,7 +750,7 @@
         <item name="counterMaxLength">10</item>
     </style>
 
-    <style name="TextInput.Success" >
+    <style name="TextInputBoxLayout.Success" >
         <item name="android:theme">@style/CursorGreen</item>
         <item name="boxStrokeColor">@color/primary_success_button_color</item>
         <item name="boxBackgroundColor">@color/default_input_color</item>
@@ -365,6 +763,8 @@
     <!--Checkbox____________________________________________________________________________________-->
     <style name="CheckBox">
         <item name="buttonIconTint">@color/default_input_color</item>
+        <item name="android:layout_width">@dimen/checkbox_size_20dp</item>
+        <item name="android:layout_height">@dimen/checkbox_size_20dp</item>
     </style>
 
     <style name="CheckBox.Default">
@@ -432,11 +832,11 @@
         <item name="android:background">@drawable/focus_dropdown_bg</item>
     </style>
 
-    <style name="DropDown.Error">
+    <style name="DropDown.Red">
         <item name="android:background">@drawable/error_dropdown_bg</item>
     </style>
 
-    <style name="DropDown.Success">
+    <style name="DropDown.Green">
         <item name="android:background">@drawable/success_dropdown_bg</item>
     </style>
 
@@ -460,7 +860,7 @@
         <item name="strokeWidth">@dimen/stroke_size_0dp</item>
     </style>
 
-    <style name="Card.Wallet">
+    <style name="Card.Profile">
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/default_input_boarder_color</item>
     </style>

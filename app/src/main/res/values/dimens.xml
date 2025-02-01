@@ -2,10 +2,10 @@
 <resources>
 
    <!--button size-->
-   <dimen name="extra_small_button_height">28dp</dimen>
+   <dimen name="extra_small_button_height">36dp</dimen>
    <dimen name="extra_small_button_width">90dp</dimen>
 
-   <dimen name="small_button_height">36dp</dimen>
+   <dimen name="small_button_height">42dp</dimen>
    <dimen name="small_button_width">140dp</dimen>
 
    <dimen name="medium_button_height">44dp</dimen>
@@ -52,6 +52,12 @@
    <!--error message-->
    <dimen name="error_message_width">328dp</dimen>
    <dimen name="error_message_height">96dp</dimen>
+
+   <!--checkbox-->
+   <dimen name="checkbox_size_20dp">20dp</dimen>
+
+   <!--edit text-->
+   <dimen name="edit_text_height">56dp</dimen>
 
 
 
