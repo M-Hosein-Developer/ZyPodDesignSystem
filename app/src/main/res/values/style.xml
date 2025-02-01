@@ -858,6 +858,7 @@
     <!--child-->
     <style name="Card.Default">
         <item name="strokeWidth">@dimen/stroke_size_0dp</item>
+        <item name="strokeColor">@color/secondary_default_button_color</item>
     </style>
 
     <style name="Card.Profile">
@@ -876,6 +877,7 @@
         <item name="itemTextColor">@color/gray_text_button</item>
         <item name="android:fontFamily">@font/new_iransans_fa_regular</item>
         <item name="elevation">8dp</item>
+        <item name="android:textSize">@dimen/text_size_12sp</item>
         <item name="elevationOverlayColor">@color/focus_input_color</item>
     </style>
 
