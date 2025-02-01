@@ -34,7 +34,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/TextInput.Default"
+            style="@style/TextInputBoxLayout.Default"
             android:id="@+id/edt_default"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             app:startIconDrawable="@drawable/baseline_settings_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/EditTextInput"
+                style="@style/EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />
@@ -67,7 +67,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edt_default" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/TextInput.Error"
+            style="@style/TextInputBoxLayout.Error"
             android:id="@+id/edt_error"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
             app:layout_constraintTop_toBottomOf="@+id/txt_error"
             app:startIconDrawable="@drawable/baseline_settings_24">
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/EditTextInput"
+                style="@style/EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />
@@ -99,7 +99,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edt_error" />
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/TextInput.Success"
+            style="@style/TextInputBoxLayout.Success"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -113,7 +113,7 @@
             app:startIconDrawable="@drawable/baseline_settings_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/EditTextInput"
+                style="@style/EditText.NumberPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="سلام" />

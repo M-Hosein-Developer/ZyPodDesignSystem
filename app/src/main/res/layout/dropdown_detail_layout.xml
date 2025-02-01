@@ -57,7 +57,7 @@
 
     <Spinner
         android:id="@+id/dropdown_error"
-        style="@style/DropDown.Error"
+        style="@style/DropDown.Red"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
@@ -83,7 +83,7 @@
 
     <Spinner
         android:id="@+id/dropdown_success"
-        style="@style/DropDown.Success"
+        style="@style/DropDown.Green"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="16dp"

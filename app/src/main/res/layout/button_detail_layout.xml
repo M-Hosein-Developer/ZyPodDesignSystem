@@ -35,9 +35,7 @@
 
         <Button
             android:id="@+id/extra_small_button"
-            style="@style/Button.Default"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.Default"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             android:textSize="@dimen/text_size_10sp"
@@ -47,9 +45,7 @@
 
         <Button
             android:id="@+id/small_button"
-            style="@style/Button.Default"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.Default"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button"
@@ -61,9 +57,7 @@
 
         <Button
             android:id="@+id/button1"
-            style="@style/Button.Default"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.Default"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -74,9 +68,7 @@
 
         <Button
             android:id="@+id/large_button"
-            style="@style/Button.Default"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.Default"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button1"
@@ -101,9 +93,7 @@
 
         <Button
             android:id="@+id/extra_small_button1"
-            style="@style/Button.Outline"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.Outline"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -113,9 +103,7 @@
 
         <Button
             android:id="@+id/small_button1"
-            style="@style/Button.Outline"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.Outline"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button1"
@@ -127,9 +115,7 @@
 
         <Button
             android:id="@+id/button11"
-            style="@style/Button.Outline"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.Outline"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -140,9 +126,7 @@
 
         <Button
             android:id="@+id/large_button1"
-            style="@style/Button.Outline"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.Outline"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button11"
@@ -167,9 +151,7 @@
 
         <Button
             android:id="@+id/extra_small_button11"
-            style="@style/Button.Hover"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.Hover"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -179,9 +161,7 @@
 
         <Button
             android:id="@+id/small_button11"
-            style="@style/Button.Hover"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.Hover"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button11"
@@ -193,9 +173,7 @@
 
         <Button
             android:id="@+id/button111"
-            style="@style/Button.Hover"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.Hover"
             android:layout_marginTop="4dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -205,9 +183,7 @@
 
         <Button
             android:id="@+id/large_button11"
-            style="@style/Button.Hover"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.Hover"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button111"
@@ -231,9 +207,7 @@
 
         <Button
             android:id="@+id/extra_small_button111"
-            style="@style/Button.Error"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.Red"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -243,9 +217,7 @@
 
         <Button
             android:id="@+id/small_button111"
-            style="@style/Button.Error"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.Red"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button111"
@@ -257,9 +229,7 @@
 
         <Button
             android:id="@+id/button1111"
-            style="@style/Button.Error"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.Red"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -270,9 +240,7 @@
 
         <Button
             android:id="@+id/large_button111"
-            style="@style/Button.Error"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.Red"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button1111"
@@ -296,9 +264,7 @@
 
         <Button
             android:id="@+id/extra_small_button1111"
-            style="@style/Button.Success"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.Green"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -308,9 +274,7 @@
 
         <Button
             android:id="@+id/small_button1111"
-            style="@style/Button.Success"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.Green"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button1111"
@@ -322,9 +286,7 @@
 
         <Button
             android:id="@+id/button11111"
-            style="@style/Button.Success"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.Green"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -335,9 +297,7 @@
 
         <Button
             android:id="@+id/large_button1111"
-            style="@style/Button.Success"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.Green"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button11111"
@@ -362,9 +322,7 @@
 
         <Button
             android:id="@+id/extra_small_button11111"
-            style="@style/Button.DisableDark"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.DisableDark"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -374,9 +332,7 @@
 
         <Button
             android:id="@+id/small_button111111"
-            style="@style/Button.DisableDark"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.DisableDark"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button11111"
@@ -388,9 +344,7 @@
 
         <Button
             android:id="@+id/button111111"
-            style="@style/Button.DisableDark"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.DisableDark"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -401,9 +355,7 @@
 
         <Button
             android:id="@+id/large_button11111"
-            style="@style/Button.DisableDark"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.DisableDark"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button111111"
@@ -428,9 +380,7 @@
 
         <Button
             android:id="@+id/extra_small_button111111"
-            style="@style/Button.DisableLight"
-            android:layout_width="@dimen/extra_small_button_width"
-            android:layout_height="@dimen/extra_small_button_height"
+            style="@style/Button.ExtraSmall.DisableLight"
             android:layout_marginTop="16dp"
             android:text="@string/yes_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -440,9 +390,7 @@
 
         <Button
             android:id="@+id/small_button1111111"
-            style="@style/Button.DisableLight"
-            android:layout_width="@dimen/small_button_width"
-            android:layout_height="@dimen/small_button_height"
+            style="@style/Button.Small.DisableLight"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/extra_small_button111111"
@@ -454,9 +402,7 @@
 
         <Button
             android:id="@+id/button1111111"
-            style="@style/Button.DisableLight"
-            android:layout_width="@dimen/medium_button_width"
-            android:layout_height="@dimen/medium_button_height"
+            style="@style/Button.Medium.DisableLight"
             android:layout_marginTop="8dp"
             android:text="@string/understand"
             app:layout_constraintEnd_toEndOf="parent"
@@ -467,9 +413,7 @@
 
         <Button
             android:id="@+id/large_button111111"
-            style="@style/Button.DisableLight"
-            android:layout_width="@dimen/large_button_width"
-            android:layout_height="@dimen/large_button_height"
+            style="@style/Button.Large.DisableLight"
             android:layout_marginEnd="8dp"
             android:text="@string/understand"
             app:layout_constraintBottom_toBottomOf="@+id/button1111111"

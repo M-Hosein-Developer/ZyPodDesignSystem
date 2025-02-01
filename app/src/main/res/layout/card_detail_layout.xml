@@ -210,8 +210,8 @@
                     app:layout_constraintTop_toBottomOf="@+id/img_profile_2_2" />
 
 
-                <Button
-                    style="@style/Button.Hover"
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Button.Medium.Rounded.Hover"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -238,7 +238,7 @@
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/card_view_2_2"
-                style="@style/Card.Wallet"
+                style="@style/Card.Profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
