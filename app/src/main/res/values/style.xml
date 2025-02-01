@@ -158,48 +158,56 @@
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Small.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
-        </style>
+        <item name="android:enabled">false</item>
+    </style>
 
     <style name="Button.Medium.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Large.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.ExtraSmall.Rounded.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Small.Rounded.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
-        </style>
+        <item name="android:enabled">false</item>
+    </style>
 
     <style name="Button.Medium.Rounded.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Large.Rounded.DisableDark">
         <item name="backgroundTint">@color/primary_disable_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
 
@@ -212,6 +220,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Small.DisableLight" >
@@ -219,6 +228,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Medium.DisableLight" >
@@ -226,6 +236,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Large.DisableLight" >
@@ -233,6 +244,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.ExtraSmall.Rounded.DisableLight" >
@@ -240,6 +252,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Small.Rounded.DisableLight" >
@@ -247,6 +260,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Medium.Rounded.DisableLight" >
@@ -254,6 +268,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
     <style name="Button.Large.Rounded.DisableLight" >
@@ -261,6 +276,7 @@
         <item name="backgroundTint">@color/secondary_default_button_color</item>
         <item name="strokeWidth">@dimen/stroke_size_1dp</item>
         <item name="strokeColor">@color/primary_disable_button_color</item>
+        <item name="android:enabled">false</item>
     </style>
 
 
@@ -818,6 +834,7 @@
     <!--drop down menu______________________________________________________________________________-->
     <!--parent-->
     <style name="DropDown">
+        <item name="android:layout_height">@dimen/edit_text_height</item>
         <item name="android:inputType">text</item>
         <item name="android:spinnerMode">dropdown</item>
         <item name="android:textColor">@color/dark_gray</item>
